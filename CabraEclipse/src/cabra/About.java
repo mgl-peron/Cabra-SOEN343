@@ -11,7 +11,7 @@ import javax.swing.event.HyperlinkListener;
 import static cabra.Utils.*;
 
 /**
- *
+ * developed by Neel
  * @author Neel
  */
 public class About extends Object{
