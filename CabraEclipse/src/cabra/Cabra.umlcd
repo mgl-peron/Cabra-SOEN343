@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_EFb58FOtEeOKE5RPIaHGzA">
+  <modelElement href="Cabra.uml#_raNEYFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1AxEFOuEeOKE5RPIaHGzA" targetItem="_r1TsHlOuEeOKE5RPIaHGzA" sourceItem="_r1AKAFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1BYIVOuEeOKE5RPIaHGzA" targetItem="_r1TsIFOuEeOKE5RPIaHGzA" sourceItem="_r1BYIFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1BYI1OuEeOKE5RPIaHGzA" targetItem="_r1TsJFOuEeOKE5RPIaHGzA" sourceItem="_r1BYIlOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1B_MVOuEeOKE5RPIaHGzA" targetItem="_r1TsKlOuEeOKE5RPIaHGzA" sourceItem="_r1B_MFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1CmQVOuEeOKE5RPIaHGzA" targetItem="_r1TsNlOuEeOKE5RPIaHGzA" sourceItem="_r1CmQFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1CmQ1OuEeOKE5RPIaHGzA" targetItem="_r1TsPlOuEeOKE5RPIaHGzA" sourceItem="_r1CmQlOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1DNUVOuEeOKE5RPIaHGzA" targetItem="_r1TsQFOuEeOKE5RPIaHGzA" sourceItem="_r1DNUFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1EbcVOuEeOKE5RPIaHGzA" targetItem="_r1TsR1OuEeOKE5RPIaHGzA" sourceItem="_r1EbcFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1FCgFOuEeOKE5RPIaHGzA" targetItem="_r1TsT1OuEeOKE5RPIaHGzA" sourceItem="_r1EbclOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1GQoVOuEeOKE5RPIaHGzA" targetItem="_r1UTElOuEeOKE5RPIaHGzA" sourceItem="_r1GQoFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1G3sVOuEeOKE5RPIaHGzA" targetItem="_r1UTGFOuEeOKE5RPIaHGzA" sourceItem="_r1G3sFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1G3s1OuEeOKE5RPIaHGzA" targetItem="_r1UTHFOuEeOKE5RPIaHGzA" sourceItem="_r1G3slOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1IF0VOuEeOKE5RPIaHGzA" targetItem="_r1UTLlOuEeOKE5RPIaHGzA" sourceItem="_r1IF0FOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1IF01OuEeOKE5RPIaHGzA" targetItem="_r1UTMlOuEeOKE5RPIaHGzA" sourceItem="_r1IF0lOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1Is4VOuEeOKE5RPIaHGzA" targetItem="_r1UTOFOuEeOKE5RPIaHGzA" sourceItem="_r1Is4FOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r1JT8VOuEeOKE5RPIaHGzA" targetItem="_r1UTPFOuEeOKE5RPIaHGzA" sourceItem="_r1JT8FOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_r1RPwFOuEeOKE5RPIaHGzA" sourceAnchor="327.0,283.0" targetAnchor="0.0,211.0" target="_z6tF0FOuEeOKE5RPIaHGzA" source="_r1TsAFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbSCcFOuEeOKE5RPIaHGzA"/>
+    <stereotypes xmi:id="_r1RPwVOuEeOKE5RPIaHGzA" name="Reference">
+      <modelElement href="Cabra.uml#_rbSCclOuEeOKE5RPIaHGzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_r1RPwlOuEeOKE5RPIaHGzA" text="">
+      <visualProperties xmi:id="_0TkRwFOuEeOKE5RPIaHGzA" position="-61.33333333333337,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_r1RPw1OuEeOKE5RPIaHGzA" aggregationKind="NONE" name="">
+      <modelElement href="Cabra.uml#_rbSCcVOuEeOKE5RPIaHGzA"/>
+      <visualProperties xmi:id="_0TjDoFOuEeOKE5RPIaHGzA" position="14.571428571428555,2.0"/>
+      <visibility xmi:id="_r1RPxFOuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_r1RPxVOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_r1RPxlOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="session" navigable="true">
+      <modelElement href="Cabra.uml#_rbKtsFOuEeOKE5RPIaHGzA"/>
+      <visualProperties xmi:id="_0TkRwVOuEeOKE5RPIaHGzA" position="-94.5,-43.0"/>
+      <visibility xmi:id="_r1RPx1OuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_r1RPyFOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_r1R20FOuEeOKE5RPIaHGzA" source="_r1TsAFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbSCc1OuEeOKE5RPIaHGzA"/>
+    <stereotypes xmi:id="_r1Sd4FOuEeOKE5RPIaHGzA" name="Reference">
+      <modelElement href="Cabra.uml#_rbSpgFOuEeOKE5RPIaHGzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_r1Sd4VOuEeOKE5RPIaHGzA" text=""/>
+    <sourceRole xmi:id="_r1Sd4lOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="">
+      <modelElement href="Cabra.uml#_rbSCdFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1Sd41OuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_r1Sd5FOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_r1Sd5VOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="deck" navigable="true">
+      <modelElement href="Cabra.uml#_rbKtslOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1Sd5lOuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_r1Sd51OuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_r1TE8FOuEeOKE5RPIaHGzA" source="_r1TsAFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbSpgVOuEeOKE5RPIaHGzA"/>
+    <stereotypes xmi:id="_r1TE8VOuEeOKE5RPIaHGzA" name="Reference">
+      <modelElement href="Cabra.uml#_rbSpg1OuEeOKE5RPIaHGzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_r1TE8lOuEeOKE5RPIaHGzA" text=""/>
+    <sourceRole xmi:id="_r1TE81OuEeOKE5RPIaHGzA" aggregationKind="NONE" name="">
+      <modelElement href="Cabra.uml#_rbSpglOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TE9FOuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_r1TE9VOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_r1TE9lOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="notes" navigable="true">
+      <modelElement href="Cabra.uml#_rbLUwlOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TE91OuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_r1TE-FOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z6ecUFOuEeOKE5RPIaHGzA" sourceAnchor="0.0,310.0" targetAnchor="327.0,382.0" target="_r1TsAFOuEeOKE5RPIaHGzA" source="_z6tF0FOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_ztqIUFOuEeOKE5RPIaHGzA"/>
+    <stereotypes xmi:id="_z6g4klOuEeOKE5RPIaHGzA" name="Reference">
+      <modelElement href="Cabra.uml#_ztqvYFOuEeOKE5RPIaHGzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_z6gRglOuEeOKE5RPIaHGzA" text="">
+      <visualProperties xmi:id="_0TmG8FOuEeOKE5RPIaHGzA" position="-61.33333333333326,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_z6g4kFOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="">
+      <modelElement href="Cabra.uml#_ztqIUVOuEeOKE5RPIaHGzA"/>
+      <visualProperties xmi:id="_0Tlf4FOuEeOKE5RPIaHGzA" position="-30.571428571428555,2.0"/>
+      <visibility xmi:id="_z6oNUVOuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_z6oNUFOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_z6g4kVOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="project" navigable="true">
+      <modelElement href="Cabra.uml#_ztizkFOuEeOKE5RPIaHGzA"/>
+      <visualProperties xmi:id="_0TmG8VOuEeOKE5RPIaHGzA" position="39.0,-43.0"/>
+      <visibility xmi:id="_z6oNU1OuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6oNUlOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6gRgVOuEeOKE5RPIaHGzA" targetItem="_z6tF0FOuEeOKE5RPIaHGzA" sourceItem="_z6gRgFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z6g4k1OuEeOKE5RPIaHGzA" source="_z6tF0FOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_ztqvYVOuEeOKE5RPIaHGzA"/>
+    <stereotypes xmi:id="_z6o0ZFOuEeOKE5RPIaHGzA" name="Reference">
+      <modelElement href="Cabra.uml#_ztqvY1OuEeOKE5RPIaHGzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_z6o0YVOuEeOKE5RPIaHGzA" text=""/>
+    <sourceRole xmi:id="_z6o0YlOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="">
+      <modelElement href="Cabra.uml#_ztqvYlOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6qpkVOuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_z6qpkFOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_z6o0Y1OuEeOKE5RPIaHGzA" aggregationKind="NONE" name="cards" navigable="true">
+      <modelElement href="Cabra.uml#_ztjaoVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6qpk1OuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6qpklOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z6hfoFOuEeOKE5RPIaHGzA" source="_z6tF0FOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_ztqvZFOuEeOKE5RPIaHGzA"/>
+    <stereotypes xmi:id="_z6pbcVOuEeOKE5RPIaHGzA" name="Reference">
+      <modelElement href="Cabra.uml#_ztrWcFOuEeOKE5RPIaHGzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_z6o0ZVOuEeOKE5RPIaHGzA" text=""/>
+    <sourceRole xmi:id="_z6o0ZlOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="">
+      <modelElement href="Cabra.uml#_ztqvZVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6rQo1OuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_z6rQolOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_z6pbcFOuEeOKE5RPIaHGzA" aggregationKind="NONE" name="currentCard" navigable="true">
+      <modelElement href="Cabra.uml#_ztkBsVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6rQpVOuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6rQpFOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_z6iGsFOuEeOKE5RPIaHGzA" subClass="_z6tF0FOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zthlcVOuEeOKE5RPIaHGzA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6itwFOuEeOKE5RPIaHGzA" targetItem="_z6tF-1OuEeOKE5RPIaHGzA" sourceItem="_z6iGsVOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6itwlOuEeOKE5RPIaHGzA" targetItem="_z6tF_1OuEeOKE5RPIaHGzA" sourceItem="_z6itwVOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6jU0VOuEeOKE5RPIaHGzA" targetItem="_z6tGAVOuEeOKE5RPIaHGzA" sourceItem="_z6jU0FOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6jU01OuEeOKE5RPIaHGzA" targetItem="_z6tGBVOuEeOKE5RPIaHGzA" sourceItem="_z6jU0lOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6j74VOuEeOKE5RPIaHGzA" targetItem="_z6tGCVOuEeOKE5RPIaHGzA" sourceItem="_z6j74FOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6ki8VOuEeOKE5RPIaHGzA" targetItem="_z6tGD1OuEeOKE5RPIaHGzA" sourceItem="_z6ki8FOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6ki81OuEeOKE5RPIaHGzA" targetItem="_z6tGE1OuEeOKE5RPIaHGzA" sourceItem="_z6ki8lOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6lKAVOuEeOKE5RPIaHGzA" targetItem="_z6tGGFOuEeOKE5RPIaHGzA" sourceItem="_z6lKAFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6lKA1OuEeOKE5RPIaHGzA" targetItem="_z6tGHFOuEeOKE5RPIaHGzA" sourceItem="_z6lKAlOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6lxEVOuEeOKE5RPIaHGzA" targetItem="_z6ts6FOuEeOKE5RPIaHGzA" sourceItem="_z6lxEFOuEeOKE5RPIaHGzA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_z6mYIVOuEeOKE5RPIaHGzA" targetItem="_z6ts7FOuEeOKE5RPIaHGzA" sourceItem="_z6mYIFOuEeOKE5RPIaHGzA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1AKAFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1AxEFOuEeOKE5RPIaHGzA" text="Creates a new session for this project.&#xA;     *" item="_r1TsHlOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQNQFOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1BYIFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1BYIVOuEeOKE5RPIaHGzA" text="Returns how many notes there are.&#xA;     * @return the number of notes" item="_r1TsIFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQNQ1OuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1BYIlOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1BYI1OuEeOKE5RPIaHGzA" text="Retrieves an imageicon that is stored in this project's folder&#xA;     * &#xA;     * @param imageName the name of the icon (foo.png)&#xA;     * @return the created imageicon, or null if the image cannot be found" item="_r1TsJFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQNRlOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1B_MFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1B_MVOuEeOKE5RPIaHGzA" text="Finds the absolute location of a card/note based on its name&#xA;     * &#xA;     * @param thing the name of the card/note/picture's file, like foo.png&#xA;     * @return the full path to foo.png" item="_r1TsKlOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQNR1OuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1CmQFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1CmQVOuEeOKE5RPIaHGzA" text="Tells this project to load notes from the saved files. Call this when switching to a new active project&#xA;     *" item="_r1TsNlOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQ0UFOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1CmQlOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1CmQ1OuEeOKE5RPIaHGzA" text="Resets all cards in this deck to not studied&#xA;     *" item="_r1TsPlOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQ0UlOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1DNUFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1DNUVOuEeOKE5RPIaHGzA" text="The entire session was skipped.&#xA;     *" item="_r1TsQFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQ0U1OuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1EbcFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1EbcVOuEeOKE5RPIaHGzA" text="*&#xA;     * Returns true if and only if there are 0 cards in the project.&#xA;     * @return true if there are 0 cards, false otherwise" item="_r1TsR1OuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQ0VFOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1EbclOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1FCgFOuEeOKE5RPIaHGzA" text="Returns the statuses of the cards: [A,B,C,D,E]&#xA;     * &#xA;     * @return [cards with status A, cards with B, C, D, E]" item="_r1TsT1OuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQ0VlOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1GQoFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1GQoVOuEeOKE5RPIaHGzA" text="Compares the two projects based on name, case insensitive. &quot;ABC&quot; > &quot;XYZ&quot;.&#xA;     * @param other&#xA;     * @return +ve if this project is bigger than other, -ve if it's smaller, 0 if they are equal (names are the same)" item="_r1UTElOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQ0V1OuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1G3sFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1G3sVOuEeOKE5RPIaHGzA" text="Add an existing note to this project&#xA;     * &#xA;     * @param note the note to add" item="_r1UTGFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQNQVOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1G3slOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1G3s1OuEeOKE5RPIaHGzA" text="Takes the given note out of the notes list.&#xA;     * &#xA;     * @param note the note to remove" item="_r1UTHFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQNQlOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1IF0FOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1IF0VOuEeOKE5RPIaHGzA" text="Removes the given card from the card array... that's it. Well, it also saves.&#xA;     * &#xA;     * @param cardToRemove the card to get rid of" item="_r1UTLlOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQNRFOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1IF0lOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1IF01OuEeOKE5RPIaHGzA" text="Copies the given picture file to this guy's folder.&#xA;     * &#xA;     * @param pictureFile the picture file to be copied&#xA;     * @return the new location of the file" item="_r1UTMlOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQNRVOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1Is4FOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1Is4VOuEeOKE5RPIaHGzA" text="*&#xA;     * Prints out this project's cards. The user earns some points by doing this.&#xA;     * @param controller the controller. Used to gain points." item="_r1UTOFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQ0UVOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r1JT8FOuEeOKE5RPIaHGzA" sourceConnectionVisual="_r1JT8VOuEeOKE5RPIaHGzA" text="Returns, for example, how many not studied cards there are.&#xA;     * &#xA;     * @param status the status to check for (learned, not learned, not studied)&#xA;     * @return the number of matching cards" item="_r1UTPFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbQ0VVOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6gRgFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6gRgVOuEeOKE5RPIaHGzA" text="A studying session. Allows for easier interfacing with the project.&#xA; *&#xA;@author Neel" item="_z6tF0FOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_ztoTIlOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6iGsVOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6itwFOuEeOKE5RPIaHGzA" text="Update the numbers to match the current project's new numbers (so it's called when a card is added to the active project)&#xA;     * &#xA;     * @return true if the session has ended, false otherwise" item="_z6tF-1OuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_ztoTJFOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6itwVOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6itwlOuEeOKE5RPIaHGzA" text="Signals this session that it's been ended, normally or prematurely.&#xA;     *" item="_z6tF_1OuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6MFOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6jU0FOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6jU0VOuEeOKE5RPIaHGzA" text="Gets a card based on the filters and project.&#xA;     * &#xA;     * @return the chosen card&#xA;     * @return null if the session has ended" item="_z6tGAVOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6MVOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6jU0lOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6jU01OuEeOKE5RPIaHGzA" text="Finds this session's current card and sets it as active. Handy if you just switched from another project.&#xA;     *" item="_z6tGBVOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6M1OuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6j74FOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6j74VOuEeOKE5RPIaHGzA" text="As usual, this guy only wants to be informed. Call it when Skip is pressed&#xA;     *" item="_z6tGCVOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6NFOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6ki8FOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6ki8VOuEeOKE5RPIaHGzA" text="Alias for getNumCards().&#xA;     * &#xA;     * @return the number of cards in this session" item="_z6tGD1OuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6NVOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6ki8lOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6ki81OuEeOKE5RPIaHGzA" text="Returns the stats of this session.&#xA;     * &#xA;     * @return an int[] with 4 values: learned, not learned, sort of, skipped." item="_z6tGE1OuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6NlOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6lKAFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6lKAVOuEeOKE5RPIaHGzA" text="Determines if this session is done.&#xA;     * &#xA;     * @return true if it is done, false otherwise." item="_z6tGGFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6N1OuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6lKAlOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6lKA1OuEeOKE5RPIaHGzA" text="Finds out if there are no cards to be studied.&#xA;     * &#xA;     * @return true if there are cards to be studied, false otherwise" item="_z6tGHFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6OFOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6lxEFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6lxEVOuEeOKE5RPIaHGzA" text="Sets up the session; creates the list of cards that will be studied.&#xA;     * &#xA;     * @param allCards" item="_z6ts6FOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_ztoTI1OuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_z6mYIFOuEeOKE5RPIaHGzA" sourceConnectionVisual="_z6mYIVOuEeOKE5RPIaHGzA" text="Adds data about how well the user did to this session.&#xA;     * &#xA;     * @param status Status.LEARNED if they got it, Status.NOT_LEARNED if they didn't" item="_z6ts7FOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_zto6MlOuEeOKE5RPIaHGzA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_z6tF0FOuEeOKE5RPIaHGzA" comments="_z6gRgFOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6gRgVOuEeOKE5RPIaHGzA" name="Session" associationsIn="_r1RPwFOuEeOKE5RPIaHGzA" associationsOut="_z6ecUFOuEeOKE5RPIaHGzA _z6g4k1OuEeOKE5RPIaHGzA _z6hfoFOuEeOKE5RPIaHGzA" generalizations="_z6iGsFOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_rbCK0VOuEeOKE5RPIaHGzA"/>
+    <visualProperties xmi:id="_z6tF0VOuEeOKE5RPIaHGzA" position="757.0,213.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_z6tF0lOuEeOKE5RPIaHGzA" label="+"/>
+    <attributes xmi:id="_z6tF01OuEeOKE5RPIaHGzA" name="project">
+      <modelElement href="Cabra.uml#_ztizkFOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_z6tF1FOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztizkVOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z6o0YFOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztizkVOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_z6tF1VOuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6tF1lOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_z6tF11OuEeOKE5RPIaHGzA" name="Project">
+        <modelElement href="Cabra.uml#_raTyEFOuEeOKE5RPIaHGzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z6tF2FOuEeOKE5RPIaHGzA" defaultValue="0" name="currentIndex">
+      <modelElement href="Cabra.uml#_ztizklOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tF2VOuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_z6tF2lOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_z6tF21OuEeOKE5RPIaHGzA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z6tF3FOuEeOKE5RPIaHGzA" name="cards">
+      <modelElement href="Cabra.uml#_ztjaoVOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_z6tF3VOuEeOKE5RPIaHGzA" name="Generics">
+        <modelElement href="Cabra.uml#_ztjaolOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z6tF3lOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztkBsFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z6rQoFOuEeOKE5RPIaHGzA" name="Generics">
+        <modelElement href="Cabra.uml#_ztjaolOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z6rQoVOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztkBsFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_z6tF31OuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6tF4FOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_z6tF4VOuEeOKE5RPIaHGzA" name="ArrayList">
+        <modelElement href="Cabra.uml#_ra7dIFOuEeOKE5RPIaHGzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z6tF4lOuEeOKE5RPIaHGzA" name="currentCard">
+      <modelElement href="Cabra.uml#_ztkBsVOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_z6tF41OuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztkBslOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_z6r3sFOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztkBslOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_z6tF5FOuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6tF5VOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_z6tF5lOuEeOKE5RPIaHGzA" name="Card">
+        <modelElement href="Cabra.uml#_rbEAAlOuEeOKE5RPIaHGzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z6tF51OuEeOKE5RPIaHGzA" defaultValue="0" name="numLearned">
+      <modelElement href="Cabra.uml#_ztkBs1OuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_z6tF6FOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztkowVOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_z6tF6VOuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6tF6lOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_z6tF61OuEeOKE5RPIaHGzA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z6tF7FOuEeOKE5RPIaHGzA" defaultValue="0" name="numNotLearned">
+      <modelElement href="Cabra.uml#_ztkowlOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_z6tF7VOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztkoxFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_z6tF7lOuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6tF71OuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_z6tF8FOuEeOKE5RPIaHGzA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z6tF8VOuEeOKE5RPIaHGzA" defaultValue="0" name="numSortOf">
+      <modelElement href="Cabra.uml#_ztlP0FOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_z6tF8lOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztlP0lOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_z6tF81OuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6tF9FOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_z6tF9VOuEeOKE5RPIaHGzA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_z6tF9lOuEeOKE5RPIaHGzA" defaultValue="0" name="numSkipped">
+      <modelElement href="Cabra.uml#_ztlP01OuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_z6tF91OuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_ztl24FOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_z6tF-FOuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_z6tF-VOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_z6tF-lOuEeOKE5RPIaHGzA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_z6tF-1OuEeOKE5RPIaHGzA" comments="_z6iGsVOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6itwFOuEeOKE5RPIaHGzA" name="update">
+      <modelElement href="Cabra.uml#_ztRGwFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tF_FOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6tF_VOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ztRt0FOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6tF_lOuEeOKE5RPIaHGzA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z6tF_1OuEeOKE5RPIaHGzA" comments="_z6itwVOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6itwlOuEeOKE5RPIaHGzA" name="end">
+      <modelElement href="Cabra.uml#_ztRt0VOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tGAFOuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_z6tGAVOuEeOKE5RPIaHGzA" comments="_z6jU0FOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6jU0VOuEeOKE5RPIaHGzA" name="getCard">
+      <modelElement href="Cabra.uml#_ztRt0lOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tGAlOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6tGA1OuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ztgXUVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6tGBFOuEeOKE5RPIaHGzA" name="Card">
+          <modelElement href="Cabra.uml#_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z6tGBVOuEeOKE5RPIaHGzA" comments="_z6jU0lOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6jU01OuEeOKE5RPIaHGzA" name="reloadCard">
+      <modelElement href="Cabra.uml#_ztSU4FOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tGBlOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6tGB1OuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_zthlcFOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6tGCFOuEeOKE5RPIaHGzA" name="Card">
+          <modelElement href="Cabra.uml#_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z6tGCVOuEeOKE5RPIaHGzA" comments="_z6j74FOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6j74VOuEeOKE5RPIaHGzA" name="cardSkipped">
+      <modelElement href="Cabra.uml#_ztSU4VOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tGClOuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_z6tGC1OuEeOKE5RPIaHGzA" name="getNumCards">
+      <modelElement href="Cabra.uml#_ztSU4lOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tGDFOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6tGDVOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ztS78FOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6tGDlOuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z6tGD1OuEeOKE5RPIaHGzA" comments="_z6ki8FOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6ki8VOuEeOKE5RPIaHGzA" name="numCards">
+      <modelElement href="Cabra.uml#_ztS78VOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tGEFOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6tGEVOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ztS78lOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6tGElOuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z6tGE1OuEeOKE5RPIaHGzA" comments="_z6ki8lOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6ki81OuEeOKE5RPIaHGzA" name="getCardStats">
+      <modelElement href="Cabra.uml#_ztS781OuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_z6tGFFOuEeOKE5RPIaHGzA" name="Array">
+        <modelElement href="Cabra.uml#_ztTjAFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_z6tGFVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6tGFlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ztS79FOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6tGF1OuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z6tGGFOuEeOKE5RPIaHGzA" comments="_z6lKAFOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6lKAVOuEeOKE5RPIaHGzA" name="isFinished">
+      <modelElement href="Cabra.uml#_ztTjAVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tGGVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6tGGlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ztTjAlOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6tGG1OuEeOKE5RPIaHGzA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z6tGHFOuEeOKE5RPIaHGzA" comments="_z6lKAlOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6lKA1OuEeOKE5RPIaHGzA" name="isEmpty">
+      <modelElement href="Cabra.uml#_ztTjA1OuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6tGHVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6tGHlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ztTjBFOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6ts4FOuEeOKE5RPIaHGzA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_z6ts4VOuEeOKE5RPIaHGzA" name="Session">
+      <modelElement href="Cabra.uml#_zteiIFOuEeOKE5RPIaHGzA"/>
+      <keywords xmi:id="_z6ts4lOuEeOKE5RPIaHGzA" keyword="create"/>
+      <visibility xmi:id="_z6ts41OuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_z6ts5FOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ztfJMlOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6ts5VOuEeOKE5RPIaHGzA" name="Session">
+          <modelElement href="Cabra.uml#_rbCK0VOuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_z6ts5lOuEeOKE5RPIaHGzA" name="project">
+        <modelElement href="Cabra.uml#_zteiIVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6ts51OuEeOKE5RPIaHGzA" name="Project">
+          <modelElement href="Cabra.uml#_raTyEFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_z6ts6FOuEeOKE5RPIaHGzA" comments="_z6lxEFOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6lxEVOuEeOKE5RPIaHGzA" name="setupSession">
+      <modelElement href="Cabra.uml#_ztfJM1OuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6ts6VOuEeOKE5RPIaHGzA" label="-"/>
+      <parameters xmi:id="_z6ts6lOuEeOKE5RPIaHGzA" name="allCards">
+        <modelElement href="Cabra.uml#_ztfJNFOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6ts61OuEeOKE5RPIaHGzA" name="ArrayList">
+          <modelElement href="Cabra.uml#_ra7dIFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_z6ts7FOuEeOKE5RPIaHGzA" comments="_z6mYIFOuEeOKE5RPIaHGzA" targetConnectionVisual="_z6mYIVOuEeOKE5RPIaHGzA" name="putResult">
+      <modelElement href="Cabra.uml#_ztg-YlOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_z6ts7VOuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_z6ts7lOuEeOKE5RPIaHGzA" name="choice">
+        <modelElement href="Cabra.uml#_ztg-Y1OuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_z6ts71OuEeOKE5RPIaHGzA" name="Choices">
+          <modelElement href="Cabra.uml#_ztg-YFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r1TsAFOuEeOKE5RPIaHGzA" name="Project" associationsIn="_z6ecUFOuEeOKE5RPIaHGzA" associationsOut="_r1RPwFOuEeOKE5RPIaHGzA _r1R20FOuEeOKE5RPIaHGzA _r1TE8FOuEeOKE5RPIaHGzA">
+    <modelElement href="Cabra.uml#_raTyEFOuEeOKE5RPIaHGzA"/>
+    <visualProperties xmi:id="_r1TsAVOuEeOKE5RPIaHGzA" position="222.0,141.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_r1TsAlOuEeOKE5RPIaHGzA" label="+"/>
+    <attributes xmi:id="_r1TsA1OuEeOKE5RPIaHGzA" defaultValue="null" name="session">
+      <modelElement href="Cabra.uml#_rbKtsFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsBFOuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_r1TsBVOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_r1TsBlOuEeOKE5RPIaHGzA" name="Session">
+        <modelElement href="Cabra.uml#_rbCK0VOuEeOKE5RPIaHGzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_r1TsB1OuEeOKE5RPIaHGzA" name="deck">
+      <modelElement href="Cabra.uml#_rbKtslOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_r1TsCFOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_rbLUwFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r1TsCVOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_rbLUwFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_r1TsClOuEeOKE5RPIaHGzA" label="-"/>
+      <cardinality xmi:id="_r1TsC1OuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_r1TsDFOuEeOKE5RPIaHGzA" name="Deck">
+        <modelElement href="Cabra.uml#_rbCx4VOuEeOKE5RPIaHGzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_r1TsDVOuEeOKE5RPIaHGzA" name="name">
+      <modelElement href="Cabra.uml#_rbLUwVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsDlOuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_r1TsD1OuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_r1TsEFOuEeOKE5RPIaHGzA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_r1TsEVOuEeOKE5RPIaHGzA" name="notes">
+      <modelElement href="Cabra.uml#_rbLUwlOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_r1TsElOuEeOKE5RPIaHGzA" name="Generics">
+        <modelElement href="Cabra.uml#_rbLUw1OuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r1TsE1OuEeOKE5RPIaHGzA" name="Generics">
+        <modelElement href="Cabra.uml#_rbLUw1OuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_r1TsFFOuEeOKE5RPIaHGzA" label="+"/>
+      <cardinality xmi:id="_r1TsFVOuEeOKE5RPIaHGzA" label="1" max="1" min="1"/>
+      <type xmi:id="_r1TsFlOuEeOKE5RPIaHGzA" name="ArrayList">
+        <modelElement href="Cabra.uml#_ra7dIFOuEeOKE5RPIaHGzA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_r1TsF1OuEeOKE5RPIaHGzA" name="Project">
+      <modelElement href="Cabra.uml#_raVAMFOuEeOKE5RPIaHGzA"/>
+      <keywords xmi:id="_r1TsGFOuEeOKE5RPIaHGzA" keyword="create"/>
+      <visibility xmi:id="_r1TsGVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsGlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_raVANFOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsG1OuEeOKE5RPIaHGzA" name="Project">
+          <modelElement href="Cabra.uml#_raTyEFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_r1TsHFOuEeOKE5RPIaHGzA" name="name">
+        <modelElement href="Cabra.uml#_raVAMVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsHVOuEeOKE5RPIaHGzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1TsHlOuEeOKE5RPIaHGzA" comments="_r1AKAFOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1AxEFOuEeOKE5RPIaHGzA" name="newSession">
+      <modelElement href="Cabra.uml#_raVnQFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsH1OuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_r1TsIFOuEeOKE5RPIaHGzA" comments="_r1BYIFOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1BYIVOuEeOKE5RPIaHGzA" name="numNotes">
+      <modelElement href="Cabra.uml#_raVnQVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsIVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsIlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_raVnQlOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsI1OuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsJFOuEeOKE5RPIaHGzA" comments="_r1BYIlOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1BYI1OuEeOKE5RPIaHGzA" name="getImageIcon">
+      <modelElement href="Cabra.uml#_raWOUFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsJVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsJlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rbHDUVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsJ1OuEeOKE5RPIaHGzA" name="ImageIcon">
+          <modelElement href="Cabra.uml#_rbGcRFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_r1TsKFOuEeOKE5RPIaHGzA" name="imageName">
+        <modelElement href="Cabra.uml#_raWOUVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsKVOuEeOKE5RPIaHGzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1TsKlOuEeOKE5RPIaHGzA" comments="_r1B_MFOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1B_MVOuEeOKE5RPIaHGzA" name="getPathTo">
+      <modelElement href="Cabra.uml#_raW1YFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsK1OuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsLFOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_raW1YlOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsLVOuEeOKE5RPIaHGzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_r1TsLlOuEeOKE5RPIaHGzA" name="thing">
+        <modelElement href="Cabra.uml#_raW1YVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsL1OuEeOKE5RPIaHGzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1TsMFOuEeOKE5RPIaHGzA" name="save">
+      <modelElement href="Cabra.uml#_raW1Y1OuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsMVOuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_r1TsMlOuEeOKE5RPIaHGzA" name="saveCards">
+      <modelElement href="Cabra.uml#_raXccFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsM1OuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_r1TsNFOuEeOKE5RPIaHGzA" name="saveNotes">
+      <modelElement href="Cabra.uml#_raXccVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsNVOuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_r1TsNlOuEeOKE5RPIaHGzA" comments="_r1CmQFOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1CmQVOuEeOKE5RPIaHGzA" name="loadNotes">
+      <modelElement href="Cabra.uml#_raXcclOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsN1OuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_r1TsOFOuEeOKE5RPIaHGzA" name="shuffle">
+      <modelElement href="Cabra.uml#_raXcc1OuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsOVOuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_r1TsOlOuEeOKE5RPIaHGzA" name="setName">
+      <modelElement href="Cabra.uml#_raXcdFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsO1OuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1TsPFOuEeOKE5RPIaHGzA" name="newName">
+        <modelElement href="Cabra.uml#_raXcdVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsPVOuEeOKE5RPIaHGzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1TsPlOuEeOKE5RPIaHGzA" comments="_r1CmQlOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1CmQ1OuEeOKE5RPIaHGzA" name="resetAllCards">
+      <modelElement href="Cabra.uml#_raYDgFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsP1OuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_r1TsQFOuEeOKE5RPIaHGzA" comments="_r1DNUFOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1DNUVOuEeOKE5RPIaHGzA" name="skipAll">
+      <modelElement href="Cabra.uml#_raYDgVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsQVOuEeOKE5RPIaHGzA" label="+"/>
+    </operations>
+    <operations xmi:id="_r1TsQlOuEeOKE5RPIaHGzA" name="getCards">
+      <modelElement href="Cabra.uml#_raYDglOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_r1TsQ1OuEeOKE5RPIaHGzA" name="Generics">
+        <modelElement href="Cabra.uml#_raYqkFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_r1TsRFOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsRVOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rbHqYlOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsRlOuEeOKE5RPIaHGzA" name="ArrayList">
+          <modelElement href="Cabra.uml#_ra7dIFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsR1OuEeOKE5RPIaHGzA" comments="_r1EbcFOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1EbcVOuEeOKE5RPIaHGzA" name="isEmpty">
+      <modelElement href="Cabra.uml#_raYqkVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsSFOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsSVOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_raYqklOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsSlOuEeOKE5RPIaHGzA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsS1OuEeOKE5RPIaHGzA" name="numCards">
+      <modelElement href="Cabra.uml#_raZRoFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsTFOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsTVOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_raZRoVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsTlOuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsT1OuEeOKE5RPIaHGzA" comments="_r1EbclOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1FCgFOuEeOKE5RPIaHGzA" name="cardStatuses">
+      <modelElement href="Cabra.uml#_raZRolOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_r1TsUFOuEeOKE5RPIaHGzA" name="Array">
+        <modelElement href="Cabra.uml#_raZ4sFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_r1TsUVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsUlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_raZRo1OuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsU1OuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsVFOuEeOKE5RPIaHGzA" name="nextCard">
+      <modelElement href="Cabra.uml#_raZ4sVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsVVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsVlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rbIRcFOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsV1OuEeOKE5RPIaHGzA" name="Card">
+          <modelElement href="Cabra.uml#_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsWFOuEeOKE5RPIaHGzA" name="getFolder">
+      <modelElement href="Cabra.uml#_raZ4slOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsWVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsWlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rbIRcVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsW1OuEeOKE5RPIaHGzA" name="File">
+          <modelElement href="Cabra.uml#_rbF1M1OuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsXFOuEeOKE5RPIaHGzA" name="getCurrentCard">
+      <modelElement href="Cabra.uml#_raafwFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsXVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsXlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rbIRclOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsX1OuEeOKE5RPIaHGzA" name="Card">
+          <modelElement href="Cabra.uml#_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsYFOuEeOKE5RPIaHGzA" name="getCurrentIndex">
+      <modelElement href="Cabra.uml#_raafwVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1TsYVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsYlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_raafwlOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsY1OuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsZFOuEeOKE5RPIaHGzA" name="toString">
+      <modelElement href="Cabra.uml#_raafw1OuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_r1TsZVOuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_rabG0VOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r1TsZlOuEeOKE5RPIaHGzA" name="Annotations">
+        <modelElement href="Cabra.uml#_rabG0lOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_r1TsZ1OuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1TsaFOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rabG0FOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1TsaVOuEeOKE5RPIaHGzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1TsalOuEeOKE5RPIaHGzA" name="hashCode">
+      <modelElement href="Cabra.uml#_rabt4FOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_r1Tsa1OuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_rabt4lOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r1TsbFOuEeOKE5RPIaHGzA" name="Annotations">
+        <modelElement href="Cabra.uml#_rabt41OuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_r1TsbVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1UTEFOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rabt4VOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTEVOuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r1UTElOuEeOKE5RPIaHGzA" comments="_r1GQoFOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1GQoVOuEeOKE5RPIaHGzA" name="compareTo">
+      <modelElement href="Cabra.uml#_ra8rQFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTE1OuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1UTFFOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_ra9SUVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTFVOuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_r1UTFlOuEeOKE5RPIaHGzA" name="other">
+        <modelElement href="Cabra.uml#_ra9SUFOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTF1OuEeOKE5RPIaHGzA" name="Project">
+          <modelElement href="Cabra.uml#_raTyEFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTGFOuEeOKE5RPIaHGzA" comments="_r1G3sFOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1G3sVOuEeOKE5RPIaHGzA" name="addNote">
+      <modelElement href="Cabra.uml#_rbDY8lOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTGVOuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1UTGlOuEeOKE5RPIaHGzA" name="note">
+        <modelElement href="Cabra.uml#_rbDY81OuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTG1OuEeOKE5RPIaHGzA" name="Note">
+          <modelElement href="Cabra.uml#_rbDY8FOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTHFOuEeOKE5RPIaHGzA" comments="_r1G3slOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1G3s1OuEeOKE5RPIaHGzA" name="removeNote">
+      <modelElement href="Cabra.uml#_rbEAAFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTHVOuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1UTHlOuEeOKE5RPIaHGzA" name="note">
+        <modelElement href="Cabra.uml#_rbEAAVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTH1OuEeOKE5RPIaHGzA" name="Note">
+          <modelElement href="Cabra.uml#_rbDY8FOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTIFOuEeOKE5RPIaHGzA" name="addCard">
+      <modelElement href="Cabra.uml#_rbEnElOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTIVOuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1UTIlOuEeOKE5RPIaHGzA" name="card">
+        <modelElement href="Cabra.uml#_rbEnE1OuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTI1OuEeOKE5RPIaHGzA" name="Card">
+          <modelElement href="Cabra.uml#_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_r1UTJFOuEeOKE5RPIaHGzA" name="status">
+        <modelElement href="Cabra.uml#_rbEnFFOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTJVOuEeOKE5RPIaHGzA" name="Status">
+          <modelElement href="Cabra.uml#_rbEnEFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTJlOuEeOKE5RPIaHGzA" name="addCard">
+      <modelElement href="Cabra.uml#_rbFOIFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTJ1OuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1UTKFOuEeOKE5RPIaHGzA" name="card">
+        <modelElement href="Cabra.uml#_rbFOIVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTKVOuEeOKE5RPIaHGzA" name="Card">
+          <modelElement href="Cabra.uml#_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTKlOuEeOKE5RPIaHGzA" name="addCards">
+      <modelElement href="Cabra.uml#_rbFOIlOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTK1OuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1UTLFOuEeOKE5RPIaHGzA" name="givenCards">
+        <modelElement href="Cabra.uml#_rbFOI1OuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTLVOuEeOKE5RPIaHGzA" name="ArrayList">
+          <modelElement href="Cabra.uml#_ra7dIFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTLlOuEeOKE5RPIaHGzA" comments="_r1IF0FOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1IF0VOuEeOKE5RPIaHGzA" name="removeCard">
+      <modelElement href="Cabra.uml#_rbF1MVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTL1OuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1UTMFOuEeOKE5RPIaHGzA" name="cardToRemove">
+        <modelElement href="Cabra.uml#_rbF1MlOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTMVOuEeOKE5RPIaHGzA" name="Card">
+          <modelElement href="Cabra.uml#_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTMlOuEeOKE5RPIaHGzA" comments="_r1IF0lOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1IF01OuEeOKE5RPIaHGzA" name="copyPictureFile">
+      <modelElement href="Cabra.uml#_rbGcQVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTM1OuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1UTNFOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rbGcQ1OuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTNVOuEeOKE5RPIaHGzA" name="File">
+          <modelElement href="Cabra.uml#_rbF1M1OuEeOKE5RPIaHGzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_r1UTNlOuEeOKE5RPIaHGzA" name="pictureFile">
+        <modelElement href="Cabra.uml#_rbGcQlOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTN1OuEeOKE5RPIaHGzA" name="File">
+          <modelElement href="Cabra.uml#_rbF1M1OuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTOFOuEeOKE5RPIaHGzA" comments="_r1Is4FOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1Is4VOuEeOKE5RPIaHGzA" name="print">
+      <modelElement href="Cabra.uml#_rbHqYFOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTOVOuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1UTOlOuEeOKE5RPIaHGzA" name="controller">
+        <modelElement href="Cabra.uml#_rbHqYVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTO1OuEeOKE5RPIaHGzA" name="Controller">
+          <modelElement href="Cabra.uml#_rbHDUlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTPFOuEeOKE5RPIaHGzA" comments="_r1JT8FOuEeOKE5RPIaHGzA" targetConnectionVisual="_r1JT8VOuEeOKE5RPIaHGzA" name="numMatchingCards">
+      <modelElement href="Cabra.uml#_rbHqY1OuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTPVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1UTPlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rbHqZVOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTP1OuEeOKE5RPIaHGzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_r1UTQFOuEeOKE5RPIaHGzA" name="status">
+        <modelElement href="Cabra.uml#_rbHqZFOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTQVOuEeOKE5RPIaHGzA" name="Status">
+          <modelElement href="Cabra.uml#_rbEnEFOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTQlOuEeOKE5RPIaHGzA" name="equals">
+      <modelElement href="Cabra.uml#_rbI4gVOuEeOKE5RPIaHGzA"/>
+      <stereotypes xmi:id="_r1UTQ1OuEeOKE5RPIaHGzA" name="LegacyStyledElement">
+        <modelElement href="Cabra.uml#_rbI4hFOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r1UTRFOuEeOKE5RPIaHGzA" name="Annotations">
+        <modelElement href="Cabra.uml#_rbI4hVOuEeOKE5RPIaHGzA"/>
+      </stereotypes>
+      <visibility xmi:id="_r1UTRVOuEeOKE5RPIaHGzA" label="+"/>
+      <outParameters xmi:id="_r1UTRlOuEeOKE5RPIaHGzA">
+        <modelElement href="Cabra.uml#_rbI4g1OuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTR1OuEeOKE5RPIaHGzA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_r1UTSFOuEeOKE5RPIaHGzA" name="aProject">
+        <modelElement href="Cabra.uml#_rbI4glOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTSVOuEeOKE5RPIaHGzA" name="Object">
+          <modelElement href="Cabra.uml#_rbIRc1OuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r1UTSlOuEeOKE5RPIaHGzA" name="createSampleProject" staticOperation="true">
+      <modelElement href="Cabra.uml#_rbJfkVOuEeOKE5RPIaHGzA"/>
+      <visibility xmi:id="_r1UTS1OuEeOKE5RPIaHGzA" label="+"/>
+      <parameters xmi:id="_r1UTTFOuEeOKE5RPIaHGzA" name="controller">
+        <modelElement href="Cabra.uml#_rbJfklOuEeOKE5RPIaHGzA"/>
+        <type xmi:id="_r1UTTVOuEeOKE5RPIaHGzA" name="Controller">
+          <modelElement href="Cabra.uml#_rbHDUlOuEeOKE5RPIaHGzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

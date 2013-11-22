@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_EEb0YFOtEeOKE5RPIaHGzA" name="Cabra">
+    <eAnnotations xmi:id="_ETuNkFOtEeOKE5RPIaHGzA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ETuNkVOtEeOKE5RPIaHGzA" source="codegen">
+        <details xmi:id="_ETuNklOtEeOKE5RPIaHGzA" key="codegenDirectory" value="/Cabra/src"/>
+        <details xmi:id="_rf7R4FOuEeOKE5RPIaHGzA" key="AssociatedSourceCode" value="/Cabra/src/cabra/Project.java;2694978866/1;/Cabra/src/cabra/Session.java;1277874831/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_raFvoFOuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_raGWsFOuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_raGWsVOuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_raGWslOuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_raGWs1OuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_raG9wFOuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_raG9wVOuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_raG9wlOuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_raG9w1OuEeOKE5RPIaHGzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_raHk0FOuEeOKE5RPIaHGzA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_raIL4FOuEeOKE5RPIaHGzA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ra7dIFOuEeOKE5RPIaHGzA" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_raIL4VOuEeOKE5RPIaHGzA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_rbF1M1OuEeOKE5RPIaHGzA" name="File"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rbBjwFOuEeOKE5RPIaHGzA" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_rbBjwVOuEeOKE5RPIaHGzA" name="Comparable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rbIRc1OuEeOKE5RPIaHGzA" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_raIL4lOuEeOKE5RPIaHGzA" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_raIL41OuEeOKE5RPIaHGzA" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_rbGcRFOuEeOKE5RPIaHGzA" name="ImageIcon"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_raNEYFOuEeOKE5RPIaHGzA" name="cabra">
+      <packagedElement xmi:type="uml:Class" xmi:id="_raTyEFOuEeOKE5RPIaHGzA" clientDependency="_rbBjw1OuEeOKE5RPIaHGzA" name="Project">
+        <ownedAttribute xmi:id="_rbKtsFOuEeOKE5RPIaHGzA" name="session" type="_rbCK0VOuEeOKE5RPIaHGzA" association="_rbSCcFOuEeOKE5RPIaHGzA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_rbKtsVOuEeOKE5RPIaHGzA" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_rbKtslOuEeOKE5RPIaHGzA" name="deck" visibility="private" type="_rbCx4VOuEeOKE5RPIaHGzA" association="_rbSCc1OuEeOKE5RPIaHGzA"/>
+        <ownedAttribute xmi:id="_rbLUwVOuEeOKE5RPIaHGzA" name="name" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_rbLUwlOuEeOKE5RPIaHGzA" name="notes" type="_ra7dIFOuEeOKE5RPIaHGzA" isReadOnly="true" association="_rbSpgVOuEeOKE5RPIaHGzA"/>
+        <interfaceRealization xmi:id="_rbBjw1OuEeOKE5RPIaHGzA" client="_raTyEFOuEeOKE5RPIaHGzA" supplier="_rbBjwVOuEeOKE5RPIaHGzA" contract="_rbBjwVOuEeOKE5RPIaHGzA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbMi4FOuEeOKE5RPIaHGzA" name="Project" specification="_raVAMFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbMi4VOuEeOKE5RPIaHGzA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_rbMi4lOuEeOKE5RPIaHGzA" type="_raTyEFOuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>//name is something like &quot;History Test&quot;
+     this.name = name;
+     deck = new Deck();
+     notes = new ArrayList&lt;Note>();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbMi41OuEeOKE5RPIaHGzA" name="newSession" specification="_raVnQFOuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>do{
+         setSession(new Session(this));
+     }
+     while(getSession().isEmpty());
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbMi5FOuEeOKE5RPIaHGzA" name="addNote" specification="_rbDY8lOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbMi5VOuEeOKE5RPIaHGzA" name="note" type="_rbDY8FOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>notes.add(note);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbMi5lOuEeOKE5RPIaHGzA" name="removeNote" specification="_rbEAAFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbMi51OuEeOKE5RPIaHGzA" name="note" type="_rbDY8FOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>notes.remove(note);
+     
+     //delete the file
+     
+     File noteFile = new File(SaveLoad.getProjectFolder() + &quot;/&quot; + name + &quot;/&quot; + note.getName() + &quot;.&quot; + Note.EXTENSION);
+         //get the note's file name
+
+     //deletes the file
+     noteFile.delete();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNJ8FOuEeOKE5RPIaHGzA" name="numNotes" specification="_raVnQVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbNJ8VOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return notes.size();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNJ8lOuEeOKE5RPIaHGzA" name="addCard" specification="_rbEnElOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbNJ81OuEeOKE5RPIaHGzA" name="card" type="_rbEAAlOuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbNJ9FOuEeOKE5RPIaHGzA" name="status" type="_rbEnEFOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>card.setStatus(status);
+     deck.add(card);
+     
+     //if the card has a picture, move the picture over here
+     if(card.hasPicture()){
+         /*if(!new File(this.getPathTo(card.getPictureName())).exists()){
+             //the picture file is corrupted or doesn't exist... remove it
+             card.removePicture();
+             
+             return;
+         }*/
+         
+         File copiedFile = copyPictureFile(card.getPictureFile());              
+         
+         //resize the image so it's the same size as the studying picture panel; reduces file size
+         /** DISABLED so we can see image in full size some time **/
+         /*ImageManager.saveImage(ImageManager.scaleImage(
+                 GUI.createImageIconFromFullPath(copiedFile.getAbsolutePath()), 
+                 PicturePanel.PICTURE_WIDTH,
+                 PicturePanel.PICTURE_HEIGHT),
+                 copiedFile);*/
+              
+         card.setPictureName(copiedFile.getAbsolutePath());
+         //and now trim the card's picture file... we won't need the full path any more
+         card.trimPictureFile();
+     }        
+     
+     saveCards();
+     
+     //since there's a new card, notify the session
+     if(session != null){
+         session.update();
+     }
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNJ9VOuEeOKE5RPIaHGzA" name="addCard" specification="_rbFOIFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbNJ9lOuEeOKE5RPIaHGzA" name="card" type="_rbEAAlOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>//we don't know if it's important or not
+     //however, the card knows if it's important or not... let's ask
+     addCard(card,card.getStatus()); //ask the card if it's importnat
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNJ91OuEeOKE5RPIaHGzA" name="addCards" specification="_rbFOIlOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbNJ-FOuEeOKE5RPIaHGzA" name="givenCards" type="_ra7dIFOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>//called during initialization to create cards
+     //significantly reduces overhead by only saving at end
+     for(Card card : givenCards){ //go through each card
+         deck.add(card);
+     }
+     //now that the cards have been added, shuffle and save
+     shuffle();
+     
+     //session = new Session(this);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNJ-VOuEeOKE5RPIaHGzA" name="removeCard" specification="_rbF1MVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbNJ-lOuEeOKE5RPIaHGzA" name="cardToRemove" type="_rbEAAlOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>deck.remove(cardToRemove);
+     //if the card being removed was active (it probably was), set active card to null
+     if(cardToRemove.equals(deck.getCurrentCard())){
+         deck.makeCurrentCardNull();
+     }
+     //delete the card's picture, if it has one
+     if(cardToRemove.hasPicture()){
+         String path = getPathTo(cardToRemove.getPictureName()); //finds the full path to the image
+         File fileToRemove = new File(path);
+         //delete the file
+         fileToRemove.delete();
+     }
+     //save
+     saveCards();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNJ-1OuEeOKE5RPIaHGzA" name="copyPictureFile" specification="_rbGcQVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbNJ_FOuEeOKE5RPIaHGzA" name="pictureFile" type="_rbF1M1OuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbNJ_VOuEeOKE5RPIaHGzA" type="_rbF1M1OuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>String fileName = pictureFile.getName();
+     File newFile = new File(SaveLoad.getProjectFolder() + &quot;/&quot; + name + &quot;/&quot; + fileName);
+     ImageManager.copyImage(pictureFile,newFile);
+     return newFile;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNxAFOuEeOKE5RPIaHGzA" name="getImageIcon" specification="_raWOUFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbNxAVOuEeOKE5RPIaHGzA" name="imageName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_rbNxAlOuEeOKE5RPIaHGzA" type="_rbGcRFOuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>return GUI.createImageIconFromFullPath(getPathTo(imageName));   
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNxA1OuEeOKE5RPIaHGzA" name="getPathTo" specification="_raW1YFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbNxBFOuEeOKE5RPIaHGzA" name="thing">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_rbNxBVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String folderPath = SaveLoad.getProjectFolder().getAbsolutePath() + &quot;/&quot; + this.getName(); //to the folder of the image
+     String absolutePath = folderPath + &quot;/&quot; + thing; //the absolute path to the image        
+     return absolutePath;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNxBlOuEeOKE5RPIaHGzA" name="save" specification="_raW1Y1OuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>//called when this project needs to be saved
+
+     //the methods are split up for convenience
+     saveCards();
+
+     saveNotes();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNxB1OuEeOKE5RPIaHGzA" name="saveCards" specification="_raXccFOuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>//save all the cards
+     //new Thread(new Runnable(){
+     //    public synchronized void run(){
+           try{
+                 BufferedWriter writer = new BufferedWriter(new FileWriter(new File(SaveLoad.getProjectFolder().getAbsolutePath() + &quot;/&quot; + name + &quot;/cards.txt&quot;))); //write to my card file
+                 for(Card card : deck.getCards()){
+                     //write down each card
+                     writer.write(card.toString()); //card's toString() does that question/answer thing
+                     writer.newLine();
+                 }
+                 writer.close();
+             }
+             catch(IOException io){
+                 System.out.println(&quot;Couldn't save cards!&quot;);
+            }     
+      //   }
+     //}).start();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNxCFOuEeOKE5RPIaHGzA" name="saveNotes" specification="_raXccVOuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>//save notes
+     final Project proj = this;
+     //save in background
+     new Thread(new Runnable(){
+         public void run(){
+             SaveLoad.saveNotes(proj);
+         }
+     }).start();
+     SaveLoad.saveNotes(this);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNxCVOuEeOKE5RPIaHGzA" name="loadNotes" specification="_raXcclOuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>notes = SaveLoad.getNotesFromProject(this);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbNxClOuEeOKE5RPIaHGzA" name="shuffle" specification="_raXcc1OuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>deck.shuffle();
+     saveCards();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbOYEFOuEeOKE5RPIaHGzA" name="setName" specification="_raXcdFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbOYEVOuEeOKE5RPIaHGzA" name="newName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>File folder = getFolder(); //folder of this project with old name
+     
+     this.name = newName;
+
+     //rename project's folder
+     folder.renameTo(new File(SaveLoad.getProjectFolder() + &quot;/&quot; + newName));
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbOYElOuEeOKE5RPIaHGzA" name="print" specification="_rbHqYFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbOYE1OuEeOKE5RPIaHGzA" name="controller" type="_rbHDUlOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>Printer.print(this, getCards());   
+
+    //earn the points
+    controller.gainPoints(PointEnums.Activity.PRINT_CARDS);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbOYFFOuEeOKE5RPIaHGzA" name="resetAllCards" specification="_raYDgFOuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>for(Card card : deck.getCards()){
+         card.setStatus(Status.DEFAULT_STATUS);
+     }
+     saveCards();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbOYFVOuEeOKE5RPIaHGzA" name="skipAll" specification="_raYDgVOuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>for(Card card : getCards()){
+         card.skip();
+     }
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbOYFlOuEeOKE5RPIaHGzA" name="getCards" specification="_raYDglOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbOYF1OuEeOKE5RPIaHGzA" type="_ra7dIFOuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>return deck.getCards();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbOYGFOuEeOKE5RPIaHGzA" name="isEmpty" specification="_raYqkVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbOYGVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return numCards() == 0;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbOYGlOuEeOKE5RPIaHGzA" name="numCards" specification="_raZRoFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbOYG1OuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//returns the number of cards in the card list
+     return deck.numCards();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbO_IFOuEeOKE5RPIaHGzA" name="numMatchingCards" specification="_rbHqY1OuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbO_IVOuEeOKE5RPIaHGzA" name="status" type="_rbEnEFOuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbO_IlOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return deck.numMatchingCards(status);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbO_I1OuEeOKE5RPIaHGzA" name="cardStatuses" specification="_raZRolOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbO_JFOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rbO_JVOuEeOKE5RPIaHGzA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return new int[]{
+         numMatchingCards(Status.A),
+         numMatchingCards(Status.B),
+         numMatchingCards(Status.C),
+         numMatchingCards(Status.D),
+         numMatchingCards(Status.E)
+     };
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbO_JlOuEeOKE5RPIaHGzA" name="nextCard" specification="_raZ4sVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbO_J1OuEeOKE5RPIaHGzA" type="_rbEAAlOuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>return deck.getCard();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbO_KFOuEeOKE5RPIaHGzA" name="getFolder" specification="_raZ4slOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbO_KVOuEeOKE5RPIaHGzA" type="_rbF1M1OuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>return new File(SaveLoad.getProjectFolder().getAbsolutePath() + &quot;/&quot; + name);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbO_KlOuEeOKE5RPIaHGzA" name="getCurrentCard" specification="_raafwFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbO_K1OuEeOKE5RPIaHGzA" type="_rbEAAlOuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>return deck.getCurrentCard();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbO_LFOuEeOKE5RPIaHGzA" name="getCurrentIndex" specification="_raafwVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbO_LVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return deck.getCurrentIndex();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbPmMFOuEeOKE5RPIaHGzA" name="toString" specification="_raafw1OuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbPmMVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return name; //this guy's toString is just his name
+         </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbPmMlOuEeOKE5RPIaHGzA" name="equals" specification="_rbI4gVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbPmM1OuEeOKE5RPIaHGzA" name="aProject" type="_rbIRc1OuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbPmNFOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(aProject == null) return false;
+             if(aProject instanceof Project == false)return false;
+             try{
+                 Project project = (Project)aProject;
+                 //if(project == null) return false;
+                 return project.name.equals(this.name);//compare by name, i.e. &quot;History Test&quot;                    
+             }
+             catch(Exception e){
+                 return false;
+             }
+         </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbPmNVOuEeOKE5RPIaHGzA" name="compareTo" specification="_ra8rQFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbPmNlOuEeOKE5RPIaHGzA" name="other" type="_raTyEFOuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbPmN1OuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(this.equals(other)) return 0;
+     String thisname = this.name.toLowerCase();
+     String othername = other.name.toLowerCase();
+     return thisname.compareTo(othername);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbPmOFOuEeOKE5RPIaHGzA" name="hashCode" specification="_rabt4FOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbPmOVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int hash = 3;
+     hash = 19 * hash + (this.name != null ? this.name.hashCode() : 0);
+     return hash;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rbPmOlOuEeOKE5RPIaHGzA" name="createSampleProject" specification="_rbJfkVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbPmO1OuEeOKE5RPIaHGzA" name="controller" type="_rbHDUlOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>Project project = controller.addProject(&quot;Sample&quot;, true);
+     ArrayList&lt;Card> cards = new ArrayList&lt;Card>();
+     cards.add(new Card(
+             &quot;What is the ultimate answer to life, the universe, and everything?&quot;, 
+             &quot;42&quot;));
+     project.addCards(cards);
+     
+     //return project;
+     controller.refresh();
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_raVAMFOuEeOKE5RPIaHGzA" name="Project" method="_rbMi4FOuEeOKE5RPIaHGzA">
+          <eAnnotations xmi:id="_raVAMlOuEeOKE5RPIaHGzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_raVAM1OuEeOKE5RPIaHGzA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_raVAMVOuEeOKE5RPIaHGzA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_raVANFOuEeOKE5RPIaHGzA" type="_raTyEFOuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raVnQFOuEeOKE5RPIaHGzA" name="newSession" method="_rbMi41OuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQNQFOuEeOKE5RPIaHGzA">
+            <body>Creates a new session for this project.
+     *</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raVnQVOuEeOKE5RPIaHGzA" name="numNotes" method="_rbNJ8FOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQNQ1OuEeOKE5RPIaHGzA">
+            <body>Returns how many notes there are.
+     * @return the number of notes</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_raVnQlOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raWOUFOuEeOKE5RPIaHGzA" name="getImageIcon" method="_rbNxAFOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQNRlOuEeOKE5RPIaHGzA">
+            <body>Retrieves an imageicon that is stored in this project's folder
+     * 
+     * @param imageName the name of the icon (foo.png)
+     * @return the created imageicon, or null if the image cannot be found</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_raWOUVOuEeOKE5RPIaHGzA" name="imageName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_rbHDUVOuEeOKE5RPIaHGzA" type="_rbGcRFOuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raW1YFOuEeOKE5RPIaHGzA" name="getPathTo" method="_rbNxA1OuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQNR1OuEeOKE5RPIaHGzA">
+            <body>Finds the absolute location of a card/note based on its name
+     * 
+     * @param thing the name of the card/note/picture's file, like foo.png
+     * @return the full path to foo.png</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_raW1YVOuEeOKE5RPIaHGzA" name="thing">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_raW1YlOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raW1Y1OuEeOKE5RPIaHGzA" name="save" method="_rbNxBlOuEeOKE5RPIaHGzA"/>
+        <ownedOperation xmi:id="_raXccFOuEeOKE5RPIaHGzA" name="saveCards" method="_rbNxB1OuEeOKE5RPIaHGzA"/>
+        <ownedOperation xmi:id="_raXccVOuEeOKE5RPIaHGzA" name="saveNotes" method="_rbNxCFOuEeOKE5RPIaHGzA"/>
+        <ownedOperation xmi:id="_raXcclOuEeOKE5RPIaHGzA" name="loadNotes" method="_rbNxCVOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQ0UFOuEeOKE5RPIaHGzA">
+            <body>Tells this project to load notes from the saved files. Call this when switching to a new active project
+     *</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raXcc1OuEeOKE5RPIaHGzA" name="shuffle" method="_rbNxClOuEeOKE5RPIaHGzA"/>
+        <ownedOperation xmi:id="_raXcdFOuEeOKE5RPIaHGzA" name="setName" method="_rbOYEFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_raXcdVOuEeOKE5RPIaHGzA" name="newName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raYDgFOuEeOKE5RPIaHGzA" name="resetAllCards" method="_rbOYFFOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQ0UlOuEeOKE5RPIaHGzA">
+            <body>Resets all cards in this deck to not studied
+     *</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raYDgVOuEeOKE5RPIaHGzA" name="skipAll" method="_rbOYFVOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQ0U1OuEeOKE5RPIaHGzA">
+            <body>The entire session was skipped.
+     *</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raYDglOuEeOKE5RPIaHGzA" name="getCards" method="_rbOYFlOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbHqYlOuEeOKE5RPIaHGzA" type="_ra7dIFOuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raYqkVOuEeOKE5RPIaHGzA" name="isEmpty" method="_rbOYGFOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQ0VFOuEeOKE5RPIaHGzA">
+            <body>*
+     * Returns true if and only if there are 0 cards in the project.
+     * @return true if there are 0 cards, false otherwise</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_raYqklOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raZRoFOuEeOKE5RPIaHGzA" name="numCards" method="_rbOYGlOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_raZRoVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raZRolOuEeOKE5RPIaHGzA" name="cardStatuses" method="_rbO_I1OuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQ0VlOuEeOKE5RPIaHGzA">
+            <body>Returns the statuses of the cards: [A,B,C,D,E]
+     * 
+     * @return [cards with status A, cards with B, C, D, E]</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_raZRo1OuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_raZRpFOuEeOKE5RPIaHGzA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raZ4sVOuEeOKE5RPIaHGzA" name="nextCard" method="_rbO_JlOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbIRcFOuEeOKE5RPIaHGzA" type="_rbEAAlOuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raZ4slOuEeOKE5RPIaHGzA" name="getFolder" method="_rbO_KFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbIRcVOuEeOKE5RPIaHGzA" type="_rbF1M1OuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raafwFOuEeOKE5RPIaHGzA" name="getCurrentCard" method="_rbO_KlOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbIRclOuEeOKE5RPIaHGzA" type="_rbEAAlOuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raafwVOuEeOKE5RPIaHGzA" name="getCurrentIndex" method="_rbO_LFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_raafwlOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_raafw1OuEeOKE5RPIaHGzA" name="toString" method="_rbPmMFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rabG0FOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rabt4FOuEeOKE5RPIaHGzA" name="hashCode" method="_rbPmOFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rabt4VOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ra8rQFOuEeOKE5RPIaHGzA" name="compareTo" method="_rbPmNVOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQ0V1OuEeOKE5RPIaHGzA">
+            <body>Compares the two projects based on name, case insensitive. &quot;ABC&quot; > &quot;XYZ&quot;.
+     * @param other
+     * @return +ve if this project is bigger than other, -ve if it's smaller, 0 if they are equal (names are the same)</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ra9SUFOuEeOKE5RPIaHGzA" name="other" type="_raTyEFOuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_ra9SUVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbDY8lOuEeOKE5RPIaHGzA" name="addNote" method="_rbMi5FOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQNQVOuEeOKE5RPIaHGzA">
+            <body>Add an existing note to this project
+     * 
+     * @param note the note to add</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_rbDY81OuEeOKE5RPIaHGzA" name="note" type="_rbDY8FOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbEAAFOuEeOKE5RPIaHGzA" name="removeNote" method="_rbMi5lOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQNQlOuEeOKE5RPIaHGzA">
+            <body>Takes the given note out of the notes list.
+     * 
+     * @param note the note to remove</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_rbEAAVOuEeOKE5RPIaHGzA" name="note" type="_rbDY8FOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbEnElOuEeOKE5RPIaHGzA" name="addCard" method="_rbNJ8lOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbEnE1OuEeOKE5RPIaHGzA" name="card" type="_rbEAAlOuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbEnFFOuEeOKE5RPIaHGzA" name="status" type="_rbEnEFOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbFOIFOuEeOKE5RPIaHGzA" name="addCard" method="_rbNJ9VOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbFOIVOuEeOKE5RPIaHGzA" name="card" type="_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbFOIlOuEeOKE5RPIaHGzA" name="addCards" method="_rbNJ91OuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbFOI1OuEeOKE5RPIaHGzA" name="givenCards" type="_ra7dIFOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbF1MVOuEeOKE5RPIaHGzA" name="removeCard" method="_rbNJ-VOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQNRFOuEeOKE5RPIaHGzA">
+            <body>Removes the given card from the card array... that's it. Well, it also saves.
+     * 
+     * @param cardToRemove the card to get rid of</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_rbF1MlOuEeOKE5RPIaHGzA" name="cardToRemove" type="_rbEAAlOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbGcQVOuEeOKE5RPIaHGzA" name="copyPictureFile" method="_rbNJ-1OuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQNRVOuEeOKE5RPIaHGzA">
+            <body>Copies the given picture file to this guy's folder.
+     * 
+     * @param pictureFile the picture file to be copied
+     * @return the new location of the file</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_rbGcQlOuEeOKE5RPIaHGzA" name="pictureFile" type="_rbF1M1OuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbGcQ1OuEeOKE5RPIaHGzA" type="_rbF1M1OuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbHqYFOuEeOKE5RPIaHGzA" name="print" method="_rbOYElOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQ0UVOuEeOKE5RPIaHGzA">
+            <body>*
+     * Prints out this project's cards. The user earns some points by doing this.
+     * @param controller the controller. Used to gain points.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_rbHqYVOuEeOKE5RPIaHGzA" name="controller" type="_rbHDUlOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbHqY1OuEeOKE5RPIaHGzA" name="numMatchingCards" method="_rbO_IFOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_rbQ0VVOuEeOKE5RPIaHGzA">
+            <body>Returns, for example, how many not studied cards there are.
+     * 
+     * @param status the status to check for (learned, not learned, not studied)
+     * @return the number of matching cards</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_rbHqZFOuEeOKE5RPIaHGzA" name="status" type="_rbEnEFOuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbHqZVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbI4gVOuEeOKE5RPIaHGzA" name="equals" method="_rbPmMlOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbI4glOuEeOKE5RPIaHGzA" name="aProject" type="_rbIRc1OuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_rbI4g1OuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rbJfkVOuEeOKE5RPIaHGzA" name="createSampleProject" isStatic="true" method="_rbPmOlOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_rbJfklOuEeOKE5RPIaHGzA" name="controller" type="_rbHDUlOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rbCK0VOuEeOKE5RPIaHGzA" name="Session">
+        <ownedComment xmi:id="_ztoTIlOuEeOKE5RPIaHGzA">
+          <body>A studying session. Allows for easier interfacing with the project.
+ *
+@author Neel</body>
+        </ownedComment>
+        <generalization xmi:id="_zthlcVOuEeOKE5RPIaHGzA" general="_rbIRc1OuEeOKE5RPIaHGzA"/>
+        <ownedAttribute xmi:id="_ztizkFOuEeOKE5RPIaHGzA" name="project" visibility="private" type="_raTyEFOuEeOKE5RPIaHGzA" association="_ztqIUFOuEeOKE5RPIaHGzA"/>
+        <ownedAttribute xmi:id="_ztizklOuEeOKE5RPIaHGzA" name="currentIndex" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ztjaoFOuEeOKE5RPIaHGzA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ztjaoVOuEeOKE5RPIaHGzA" name="cards" visibility="private" type="_ra7dIFOuEeOKE5RPIaHGzA" association="_ztqvYVOuEeOKE5RPIaHGzA"/>
+        <ownedAttribute xmi:id="_ztkBsVOuEeOKE5RPIaHGzA" name="currentCard" visibility="private" type="_rbEAAlOuEeOKE5RPIaHGzA" association="_ztqvZFOuEeOKE5RPIaHGzA"/>
+        <ownedAttribute xmi:id="_ztkBs1OuEeOKE5RPIaHGzA" name="numLearned" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ztkowFOuEeOKE5RPIaHGzA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ztkowlOuEeOKE5RPIaHGzA" name="numNotLearned" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ztkow1OuEeOKE5RPIaHGzA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ztlP0FOuEeOKE5RPIaHGzA" name="numSortOf" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ztlP0VOuEeOKE5RPIaHGzA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ztlP01OuEeOKE5RPIaHGzA" name="numSkipped" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ztlP1FOuEeOKE5RPIaHGzA" value="0"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztl24VOuEeOKE5RPIaHGzA" name="Session" specification="_zteiIFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztl24lOuEeOKE5RPIaHGzA" name="project" type="_raTyEFOuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_ztl241OuEeOKE5RPIaHGzA" type="_rbCK0VOuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>//new Exception().printStackTrace();
+     this.project = project;
+     
+     project.setSession(this);
+
+     cards = new ArrayList&lt;Card>();
+     setupSession(project.getCards());
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztmd8FOuEeOKE5RPIaHGzA" name="setupSession" specification="_ztfJM1OuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztmd8VOuEeOKE5RPIaHGzA" name="allCards" type="_ra7dIFOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>//determine the maximum number of cards the user wants to study in a session
+     //and use that as a limit
+     int maxCards = UserData.getIntPref(&quot;MaxSession&quot;);
+     int added = 0;
+     for(int i=0; i&lt;allCards.size() &amp;&amp; added &lt; maxCards; i++){
+         Card card = allCards.get(i);
+         if(card.isDueForStudying()){
+             cards.add(card);
+             added++;
+         }
+         else{
+             //we won't study it
+             card.skip();
+         }            
+     }
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztmd8lOuEeOKE5RPIaHGzA" name="update" specification="_ztRGwFOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztmd81OuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//has the session ended?
+     return this.getNumCards() == 0;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztmd9FOuEeOKE5RPIaHGzA" name="end" specification="_ztRt0VOuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>//if the session was ended prematurely, then the number of total cards won't equal the number of learned/notlearned/notstudied
+     
+     //if the user quit early, don't let the cards you didn't study show up as skipped
+     //numCards = numLearned + numNotLearned + numSkipped;
+     
+     //totalCards = numLearned + numNotLearned + numSkipped;
+     project.setSession(null);
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztmd9VOuEeOKE5RPIaHGzA" name="getCard" specification="_ztRt0lOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztmd9lOuEeOKE5RPIaHGzA" type="_rbEAAlOuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>if(currentIndex >= numCards()){
+         //this session should be over
+         return null;
+     }
+     //just grab a card that's been chosen
+     currentCard = cards.get(currentIndex);
+     currentIndex++; //this could go over, that's ok since the session should always be checked after each card
+     
+     return currentCard;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztnFAFOuEeOKE5RPIaHGzA" name="putResult" specification="_ztg-YlOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztnFAVOuEeOKE5RPIaHGzA" name="choice" type="_ztg-YFOuEeOKE5RPIaHGzA"/>
+          <language>java</language>
+          <body>switch(choice){
+         case YES:
+             numLearned++;
+             break;
+         case NO:
+             numNotLearned++;
+             break;
+         case SORT_OF:
+             numSortOf++;
+             break;
+         case SKIPPED:
+             //handled in cardSkipped()
+             break;
+     }
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztnFAlOuEeOKE5RPIaHGzA" name="reloadCard" specification="_ztSU4FOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztnFA1OuEeOKE5RPIaHGzA" type="_rbEAAlOuEeOKE5RPIaHGzA" direction="return"/>
+          <language>java</language>
+          <body>return currentCard;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztnFBFOuEeOKE5RPIaHGzA" name="cardSkipped" specification="_ztSU4VOuEeOKE5RPIaHGzA">
+          <language>java</language>
+          <body>numSkipped++;
+     //card doesn't need to be informed
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztnFBVOuEeOKE5RPIaHGzA" name="getNumCards" specification="_ztSU4lOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztnFBlOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//before you give it back make sure there aren't any cards you missed from quitting early
+     return cards.size();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztnsEFOuEeOKE5RPIaHGzA" name="numCards" specification="_ztS78VOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztnsEVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return getNumCards();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztnsElOuEeOKE5RPIaHGzA" name="getCardStats" specification="_ztS781OuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztnsE1OuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ztnsFFOuEeOKE5RPIaHGzA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return new int[] { numLearned, numNotLearned, numSortOf, numSkipped };
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztnsFVOuEeOKE5RPIaHGzA" name="isFinished" specification="_ztTjAVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztnsFlOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//current index is 0 based, so anything too large returns true
+     //System.out.println(currentIndex + &quot; out of &quot; + numCards());
+     return currentIndex > numCards();
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ztoTIFOuEeOKE5RPIaHGzA" name="isEmpty" specification="_ztTjA1OuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztoTIVOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return numCards() == 0;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ztRGwFOuEeOKE5RPIaHGzA" name="update" method="_ztmd8lOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_ztoTJFOuEeOKE5RPIaHGzA">
+            <body>Update the numbers to match the current project's new numbers (so it's called when a card is added to the active project)
+     * 
+     * @return true if the session has ended, false otherwise</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ztRt0FOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztRt0VOuEeOKE5RPIaHGzA" name="end" method="_ztmd9FOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6MFOuEeOKE5RPIaHGzA">
+            <body>Signals this session that it's been ended, normally or prematurely.
+     *</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztRt0lOuEeOKE5RPIaHGzA" name="getCard" method="_ztmd9VOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6MVOuEeOKE5RPIaHGzA">
+            <body>Gets a card based on the filters and project.
+     * 
+     * @return the chosen card
+     * @return null if the session has ended</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ztgXUVOuEeOKE5RPIaHGzA" type="_rbEAAlOuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztSU4FOuEeOKE5RPIaHGzA" name="reloadCard" method="_ztnFAlOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6M1OuEeOKE5RPIaHGzA">
+            <body>Finds this session's current card and sets it as active. Handy if you just switched from another project.
+     *</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_zthlcFOuEeOKE5RPIaHGzA" type="_rbEAAlOuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztSU4VOuEeOKE5RPIaHGzA" name="cardSkipped" method="_ztnFBFOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6NFOuEeOKE5RPIaHGzA">
+            <body>As usual, this guy only wants to be informed. Call it when Skip is pressed
+     *</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztSU4lOuEeOKE5RPIaHGzA" name="getNumCards" method="_ztnFBVOuEeOKE5RPIaHGzA">
+          <ownedParameter xmi:id="_ztS78FOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztS78VOuEeOKE5RPIaHGzA" name="numCards" method="_ztnsEFOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6NVOuEeOKE5RPIaHGzA">
+            <body>Alias for getNumCards().
+     * 
+     * @return the number of cards in this session</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ztS78lOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztS781OuEeOKE5RPIaHGzA" name="getCardStats" method="_ztnsElOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6NlOuEeOKE5RPIaHGzA">
+            <body>Returns the stats of this session.
+     * 
+     * @return an int[] with 4 values: learned, not learned, sort of, skipped.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ztS79FOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ztS79VOuEeOKE5RPIaHGzA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztTjAVOuEeOKE5RPIaHGzA" name="isFinished" method="_ztnsFVOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6N1OuEeOKE5RPIaHGzA">
+            <body>Determines if this session is done.
+     * 
+     * @return true if it is done, false otherwise.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ztTjAlOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztTjA1OuEeOKE5RPIaHGzA" name="isEmpty" method="_ztoTIFOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6OFOuEeOKE5RPIaHGzA">
+            <body>Finds out if there are no cards to be studied.
+     * 
+     * @return true if there are cards to be studied, false otherwise</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ztTjBFOuEeOKE5RPIaHGzA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_zteiIFOuEeOKE5RPIaHGzA" name="Session" method="_ztl24VOuEeOKE5RPIaHGzA">
+          <eAnnotations xmi:id="_ztfJMFOuEeOKE5RPIaHGzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ztfJMVOuEeOKE5RPIaHGzA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_zteiIVOuEeOKE5RPIaHGzA" name="project" type="_raTyEFOuEeOKE5RPIaHGzA"/>
+          <ownedParameter xmi:id="_ztfJMlOuEeOKE5RPIaHGzA" type="_rbCK0VOuEeOKE5RPIaHGzA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztfJM1OuEeOKE5RPIaHGzA" name="setupSession" visibility="private" method="_ztmd8FOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_ztoTI1OuEeOKE5RPIaHGzA">
+            <body>Sets up the session; creates the list of cards that will be studied.
+     * 
+     * @param allCards</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ztfJNFOuEeOKE5RPIaHGzA" name="allCards" type="_ra7dIFOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ztg-YlOuEeOKE5RPIaHGzA" name="putResult" method="_ztnFAFOuEeOKE5RPIaHGzA">
+          <ownedComment xmi:id="_zto6MlOuEeOKE5RPIaHGzA">
+            <body>Adds data about how well the user did to this session.
+     * 
+     * @param status Status.LEARNED if they got it, Status.NOT_LEARNED if they didn't</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ztg-Y1OuEeOKE5RPIaHGzA" name="choice" type="_ztg-YFOuEeOKE5RPIaHGzA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rbCx4VOuEeOKE5RPIaHGzA" name="Deck"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rbDY8FOuEeOKE5RPIaHGzA" name="Note"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rbEAAlOuEeOKE5RPIaHGzA" name="Card"/>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_rbEnEFOuEeOKE5RPIaHGzA" name="Status"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rbHDUlOuEeOKE5RPIaHGzA" name="Controller"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_rbSCcFOuEeOKE5RPIaHGzA" name="" memberEnd="_rbSCcVOuEeOKE5RPIaHGzA _rbKtsFOuEeOKE5RPIaHGzA">
+        <ownedEnd xmi:id="_rbSCcVOuEeOKE5RPIaHGzA" name="" type="_raTyEFOuEeOKE5RPIaHGzA" association="_rbSCcFOuEeOKE5RPIaHGzA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_rbSCc1OuEeOKE5RPIaHGzA" name="" memberEnd="_rbSCdFOuEeOKE5RPIaHGzA _rbKtslOuEeOKE5RPIaHGzA">
+        <ownedEnd xmi:id="_rbSCdFOuEeOKE5RPIaHGzA" name="" type="_raTyEFOuEeOKE5RPIaHGzA" association="_rbSCc1OuEeOKE5RPIaHGzA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_rbSpgVOuEeOKE5RPIaHGzA" name="" memberEnd="_rbSpglOuEeOKE5RPIaHGzA _rbLUwlOuEeOKE5RPIaHGzA">
+        <ownedEnd xmi:id="_rbSpglOuEeOKE5RPIaHGzA" name="" type="_raTyEFOuEeOKE5RPIaHGzA" association="_rbSpgVOuEeOKE5RPIaHGzA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ztqIUFOuEeOKE5RPIaHGzA" name="" memberEnd="_ztqIUVOuEeOKE5RPIaHGzA _ztizkFOuEeOKE5RPIaHGzA">
+        <ownedEnd xmi:id="_ztqIUVOuEeOKE5RPIaHGzA" name="" type="_rbCK0VOuEeOKE5RPIaHGzA" association="_ztqIUFOuEeOKE5RPIaHGzA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ztqvYVOuEeOKE5RPIaHGzA" name="" memberEnd="_ztqvYlOuEeOKE5RPIaHGzA _ztjaoVOuEeOKE5RPIaHGzA">
+        <ownedEnd xmi:id="_ztqvYlOuEeOKE5RPIaHGzA" name="" type="_rbCK0VOuEeOKE5RPIaHGzA" association="_ztqvYVOuEeOKE5RPIaHGzA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ztqvZFOuEeOKE5RPIaHGzA" name="" memberEnd="_ztqvZVOuEeOKE5RPIaHGzA _ztkBsVOuEeOKE5RPIaHGzA">
+        <ownedEnd xmi:id="_ztqvZVOuEeOKE5RPIaHGzA" name="" type="_rbCK0VOuEeOKE5RPIaHGzA" association="_ztqvZFOuEeOKE5RPIaHGzA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ztLAIFOuEeOKE5RPIaHGzA" name="KnowPanel">
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_ztg-YFOuEeOKE5RPIaHGzA" name="Choices"/>
+    </packagedElement>
+    <profileApplication xmi:id="_ETxQ4FOtEeOKE5RPIaHGzA">
+      <eAnnotations xmi:id="_ETzGEFOtEeOKE5RPIaHGzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_ET2wcFOtEeOKE5RPIaHGzA" base_Package="_EEb0YFOtEeOKE5RPIaHGzA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_raYqkFOuEeOKE5RPIaHGzA" genericsValue="Card" base_Element="_raYDglOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Array xmi:id="_raZ4sFOuEeOKE5RPIaHGzA" base_Element="_raZRolOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rabG0VOuEeOKE5RPIaHGzA" base_Element="_raafw1OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Annotations xmi:id="_rabG0lOuEeOKE5RPIaHGzA" base_Element="_raafw1OuEeOKE5RPIaHGzA">
+    <annotations xmi:id="_rabG01OuEeOKE5RPIaHGzA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rabt4lOuEeOKE5RPIaHGzA" base_Element="_rabt4FOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Annotations xmi:id="_rabt41OuEeOKE5RPIaHGzA" base_Element="_rabt4FOuEeOKE5RPIaHGzA">
+    <annotations xmi:id="_rabt5FOuEeOKE5RPIaHGzA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_ra8EMFOuEeOKE5RPIaHGzA" base_Element="_ra7dIFOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbBjwlOuEeOKE5RPIaHGzA" base_Element="_rbBjwVOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Generics xmi:id="_rbCK0FOuEeOKE5RPIaHGzA" genericsValue="Project" base_Element="_rbBjw1OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbCx4lOuEeOKE5RPIaHGzA" base_Element="_rbCx4VOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbDY8VOuEeOKE5RPIaHGzA" base_Element="_rbDY8FOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbEAA1OuEeOKE5RPIaHGzA" base_Element="_rbEAAlOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbEnEVOuEeOKE5RPIaHGzA" base_Element="_rbEnEFOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Generics xmi:id="_rbF1MFOuEeOKE5RPIaHGzA" genericsValue="Card" base_Element="_rbFOI1OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbGcQFOuEeOKE5RPIaHGzA" base_Element="_rbF1M1OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbHDUFOuEeOKE5RPIaHGzA" base_Element="_rbGcRFOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbHDU1OuEeOKE5RPIaHGzA" base_Element="_rbHDUlOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbI4gFOuEeOKE5RPIaHGzA" base_Element="_rbIRc1OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rbI4hFOuEeOKE5RPIaHGzA" base_Element="_rbI4gVOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Annotations xmi:id="_rbI4hVOuEeOKE5RPIaHGzA" base_Element="_rbI4gVOuEeOKE5RPIaHGzA">
+    <annotations xmi:id="_rbJfkFOuEeOKE5RPIaHGzA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rbLUwFOuEeOKE5RPIaHGzA" base_Element="_rbKtslOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Generics xmi:id="_rbLUw1OuEeOKE5RPIaHGzA" genericsValue="Note" base_Element="_rbLUwlOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbSCclOuEeOKE5RPIaHGzA" base_Element="_rbSCcFOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbSpgFOuEeOKE5RPIaHGzA" base_Element="_rbSCc1OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_rbSpg1OuEeOKE5RPIaHGzA" base_Element="_rbSpgVOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Array xmi:id="_ztTjAFOuEeOKE5RPIaHGzA" base_Element="_ztS781OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Generics xmi:id="_ztgXUFOuEeOKE5RPIaHGzA" genericsValue="Card" base_Element="_ztfJNFOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_ztg-YVOuEeOKE5RPIaHGzA" base_Element="_ztg-YFOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ztizkVOuEeOKE5RPIaHGzA" base_Element="_ztizkFOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Generics xmi:id="_ztjaolOuEeOKE5RPIaHGzA" genericsValue="Card" base_Element="_ztjaoVOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ztkBsFOuEeOKE5RPIaHGzA" base_Element="_ztjaoVOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ztkBslOuEeOKE5RPIaHGzA" base_Element="_ztkBsVOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ztkowVOuEeOKE5RPIaHGzA" base_Element="_ztkBs1OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ztkoxFOuEeOKE5RPIaHGzA" base_Element="_ztkowlOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ztlP0lOuEeOKE5RPIaHGzA" base_Element="_ztlP0FOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ztl24FOuEeOKE5RPIaHGzA" base_Element="_ztlP01OuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_ztqvYFOuEeOKE5RPIaHGzA" base_Element="_ztqIUFOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_ztqvY1OuEeOKE5RPIaHGzA" base_Element="_ztqvYVOuEeOKE5RPIaHGzA"/>
+  <UMLLabProfile:Reference xmi:id="_ztrWcFOuEeOKE5RPIaHGzA" base_Element="_ztqvZFOuEeOKE5RPIaHGzA"/>
+</xmi:XMI>
