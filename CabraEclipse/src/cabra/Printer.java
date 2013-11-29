@@ -70,10 +70,10 @@ public class Printer extends Object{
      * @param project the project that owns the cards
      * @param cards the cards to print //we're not taking directly from the project since we want filters possible
      */
-    public static void print(final Project project, final ArrayList<Card> cards){
+    public static void print(final Project project){
         SwingUtilities.invokeLater(new Runnable(){
             public void run(){
-                Printer.realPrint(project,cards);
+                Printer.realPrint(project);
             }
         });
     }
@@ -83,8 +83,9 @@ public class Printer extends Object{
      * @param project the project that owns the cards
      * @param cards the cards to print
      */
-    private static void realPrint(final Project project, final ArrayList<Card> cards){
+    private static void realPrint(final Project project){
         
+    	final ArrayList<Card> cards = project.getCards();
         //this contains each and every card with its contents
         Object[][] contents = new Object[cards.size()][3]; //cards down, image/question/answer acrs
         for(int i=0;i<cards.size();i++){

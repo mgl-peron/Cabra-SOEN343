@@ -542,7 +542,7 @@ public final class Controller extends Object{
      * @param controller the controller. Used to gain points.
      */
     public void print(Project project){
-        Printer.print(project, project.getCards());   
+        Printer.print(project);   
 
        //earn the points
        this.gainPoints(PointEnums.Activity.PRINT_CARDS);
