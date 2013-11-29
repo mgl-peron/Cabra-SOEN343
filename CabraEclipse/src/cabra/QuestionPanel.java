@@ -49,7 +49,7 @@ public class QuestionPanel extends cabra.abstracts.StudyTextPanel{
             //decrease size of text area
             textArea.setColumns(TEXT_AREA_ROWS_PICTURE);
             //create and add picture panel
-            final ImageIcon picture = controller.getActiveProject().getImageIcon(currentCard.getPictureName());
+            final ImageIcon picture = ImageManager.getImageIcon(currentCard.getPictureName(), controller.getActiveProject());
             
             picturePanel = new PicturePanel(picture);
             add(BorderLayout.WEST,picturePanel);

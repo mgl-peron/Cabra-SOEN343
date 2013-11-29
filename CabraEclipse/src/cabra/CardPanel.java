@@ -77,7 +77,7 @@ public class CardPanel extends JPanel{
         //update picture area
         if(card.hasPicture()){
             //make an image and show it
-            picture.updatePicture(owner.getImageIcon(card.getPictureName()));
+            picture.updatePicture(ImageManager.getImageIcon(card.getPictureName(), owner));
         }
         else{
             //no picture

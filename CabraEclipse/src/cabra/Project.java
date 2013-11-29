@@ -166,17 +166,6 @@ public class Project implements Comparable<Project>{
         //save
         saveCards();
     }
-  
-    
-    /** Retrieves an imageicon that is stored in this project's folder
-     * 
-     * @param imageName the name of the icon (foo.png)
-     * @return the created imageicon, or null if the image cannot be found
-     */
-    
-    public ImageIcon getImageIcon(String imageName){
-        return ImageManager.getImageIcon(imageName, this);   
-    }
     
     public void save(){
         //called when this project needs to be saved
