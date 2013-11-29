@@ -198,10 +198,7 @@ public class Project implements Comparable<Project>{
      * @param controller the controller. Used to gain points.
      */
     public void print(Controller controller){
-        Printer.print(this, getCards());   
-
-       //earn the points
-       controller.gainPoints(PointEnums.Activity.PRINT_CARDS);
+    	controller.print(this);
     }
     
     /** Resets all cards in this deck to not studied

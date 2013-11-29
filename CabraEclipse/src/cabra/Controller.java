@@ -12,8 +12,10 @@ package cabra;
 
 import java.util.ArrayList;
 import java.io.*;
+
 import cabra.PointEnums.Activity;
 import cabra.PointEnums.Rank;
+
 import java.util.Calendar;
 import java.util.Collections;
 
@@ -534,6 +536,16 @@ public final class Controller extends Object{
         }
         //if there's no active project, take no action
     }
+    
+    /***
+     * Prints out this project's cards. The user earns some points by doing this.
+     * @param controller the controller. Used to gain points.
+     */
+    public void print(Project project){
+        Printer.print(project, project.getCards());   
 
+       //earn the points
+       this.gainPoints(PointEnums.Activity.PRINT_CARDS);
+    }
     
 }
