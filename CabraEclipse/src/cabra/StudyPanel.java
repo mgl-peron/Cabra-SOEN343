@@ -383,7 +383,7 @@ public class StudyPanel extends JPanel{
         Status oldStatus = currentCard.getStatus();
         
         currentCard.study(choice);
-        tabPane.getActiveProject().save();
+        SaveLoad.save(tabPane.getActiveProject());
         
         //give points if they were right
         if(choice == Choices.YES){
