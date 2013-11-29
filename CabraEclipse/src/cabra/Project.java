@@ -167,13 +167,9 @@ public class Project implements Comparable<Project>{
         SaveLoad.saveCards(this);
     }
     
-    public void save(){
-        //called when this project needs to be saved
-
-        //the methods are split up for convenience
-        SaveLoad.saveCards(this);
-
-        SaveLoad.saveNotes(this);
+    public void save()
+    {
+    	SaveLoad.save(this);
     }
     
     /** Tells this project to load notes from the saved files. Call this when switching to a new active project

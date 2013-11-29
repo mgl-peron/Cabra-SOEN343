@@ -128,6 +128,15 @@ public class SaveLoad extends Object{
     }
     
     
+    //called when this project needs to be saved
+    public static void save(Project project){
+
+        //the methods are split up for convenience
+        SaveLoad.saveCards(project);
+
+        SaveLoad.saveNotes(project);
+    }
+    
     /** A convenience class for giving notes to a project.
      * 
      * @param project the project whose notes are to be loaded.
