@@ -6,6 +6,7 @@
 package cabra;
 
 import javax.swing.*;
+
 //import javax.swing.ImageIcon;
 /*import java.awt.Image;
 import java.awt.Graphics2D;
@@ -14,6 +15,7 @@ import java.awt.RenderingHints;*/
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
+
 import sun.awt.image.ToolkitImage;
 
 /** Provides utility methods for using images.
@@ -162,5 +164,13 @@ public final class ImageManager {
            );
         
         dialog.setVisible(true);
+    }
+    
+    public static File copyPictureFile(File pictureFile, String name)
+    {
+    	 String fileName = pictureFile.getName();
+         File newFile = new File(SaveLoad.getProjectFolder() + "/" + name + "/" + fileName);
+         ImageManager.copyImage(pictureFile,newFile);
+         return newFile;
     }
 }

@@ -174,10 +174,7 @@ public class Project implements Comparable<Project>{
      */
     
     public File copyPictureFile(File pictureFile){
-        String fileName = pictureFile.getName();
-        File newFile = new File(SaveLoad.getProjectFolder() + "/" + name + "/" + fileName);
-        ImageManager.copyImage(pictureFile,newFile);
-        return newFile;
+       return ImageManager.copyPictureFile(pictureFile, name);
     }
     
     /** Retrieves an imageicon that is stored in this project's folder
