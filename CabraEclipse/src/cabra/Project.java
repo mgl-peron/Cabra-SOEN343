@@ -193,14 +193,6 @@ public class Project implements Comparable<Project>{
         folder.renameTo(new File(SaveLoad.getProjectFolder() + "/" + newName));
     }
     
-    /***
-     * Prints out this project's cards. The user earns some points by doing this.
-     * @param controller the controller. Used to gain points.
-     */
-    public void print(Controller controller){
-    	controller.print(this);
-    }
-    
     /** Resets all cards in this deck to not studied
      * 
      */

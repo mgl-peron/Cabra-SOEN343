@@ -61,7 +61,7 @@ public class TopMenuBar extends JMenuBar{
                        Project project = InputManager.getProject("Which project's cards do you want to print?",
                                controller.getAllProjects().toArray(new Project[0]), gui.getFrame());
                        if(project != null){
-                           project.print(controller);
+                           controller.print(project);
                        }
                    }
                 });
