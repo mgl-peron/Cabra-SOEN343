@@ -139,7 +139,7 @@ public class TabPane extends JTabbedPane{
      */
     
     public void saveNotes(){
-        controller.getActiveProject().saveNotes();
+        SaveLoad.saveNotes(controller.getActiveProject());
     }
     
     /** Call this when changing to a new project.

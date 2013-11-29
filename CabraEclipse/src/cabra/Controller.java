@@ -288,7 +288,7 @@ public final class Controller extends Object{
         activeProject.addNote(note);
 
         //save while we're at it
-        activeProject.saveNotes(); //no need to save cards too
+        SaveLoad.saveNotes(activeProject); //no need to save cards too
         
         return new NotePanel(tabPane,gui,this,note);
     }
