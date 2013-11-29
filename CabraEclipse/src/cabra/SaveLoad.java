@@ -190,4 +190,20 @@ public class SaveLoad extends Object{
         
         return notes;
     }
+    
+    
+    public static void saveCards(Project project){
+              try{
+                    BufferedWriter writer = new BufferedWriter(new FileWriter(new File(SaveLoad.getProjectFolder().getAbsolutePath() + "/" + project.getName() + "/cards.txt"))); //write to my card file
+                    for(Card card : project.getCards()){
+                        //write down each card
+                        writer.write(card.toString()); //card's toString() does that question/answer thing
+                        writer.newLine();
+                    }
+                    writer.close();
+                }
+                catch(IOException io){
+                    System.out.println("Couldn't save cards!");
+               }     
+    }
 }

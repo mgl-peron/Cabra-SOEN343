@@ -177,23 +177,7 @@ public class Project implements Comparable<Project>{
     }
     
     public void saveCards(){
-        //save all the cards
-        //new Thread(new Runnable(){
-        //    public synchronized void run(){
-              try{
-                    BufferedWriter writer = new BufferedWriter(new FileWriter(new File(SaveLoad.getProjectFolder().getAbsolutePath() + "/" + name + "/cards.txt"))); //write to my card file
-                    for(Card card : deck.getCards()){
-                        //write down each card
-                        writer.write(card.toString()); //card's toString() does that question/answer thing
-                        writer.newLine();
-                    }
-                    writer.close();
-                }
-                catch(IOException io){
-                    System.out.println("Couldn't save cards!");
-               }     
-         //   }
-        //}).start();
+    	SaveLoad.saveCards(this);
     }
     
     public void saveNotes(){

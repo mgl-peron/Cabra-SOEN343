@@ -14,7 +14,10 @@ import java.awt.GridLayout;
 import java.awt.RenderingHints;*/
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 import sun.awt.image.ToolkitImage;
 
@@ -183,6 +186,6 @@ public final class ImageManager {
     public static ImageIcon getImageIcon(String imageName, Project project){
         return GUI.createImageIconFromFullPath(SaveLoad.getPathTo(imageName, project));   
     }
-    
+
     
 }
