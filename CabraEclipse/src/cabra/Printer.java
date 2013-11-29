@@ -96,7 +96,7 @@ public class Printer extends Object{
             }
               else{
                 //there IS a picture, so put it in here
-                contents[i][0] = project.getPathTo(card.getPictureName());
+                contents[i][0] = SaveLoad.getPathTo(card.getPictureName(), project);
             }
             
             //<html> forces line wrap

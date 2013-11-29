@@ -158,7 +158,7 @@ public class Project implements Comparable<Project>{
         }
         //delete the card's picture, if it has one
         if(cardToRemove.hasPicture()){
-            String path = getPathTo(cardToRemove.getPictureName()); //finds the full path to the image
+            String path = SaveLoad.getPathTo(cardToRemove.getPictureName(), this); //finds the full path to the image
             File fileToRemove = new File(path);
             //delete the file
             fileToRemove.delete();
@@ -175,17 +175,7 @@ public class Project implements Comparable<Project>{
      */
     
     public ImageIcon getImageIcon(String imageName){
-        return GUI.createImageIconFromFullPath(getPathTo(imageName));   
-    }
-    
-    /** Finds the absolute location of a card/note based on its name
-     * 
-     * @param thing the name of the card/note/picture's file, like foo.png
-     * @return the full path to foo.png
-     */
-    
-    public String getPathTo(String thing){
-        return SaveLoad.getPathTo(thing, this);
+        return GUI.createImageIconFromFullPath(SaveLoad.getPathTo(imageName, this));   
     }
     
     public void save(){
