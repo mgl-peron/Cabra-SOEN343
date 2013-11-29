@@ -257,7 +257,7 @@ public class Project implements Comparable<Project>{
     }
     
     public File getFolder(){
-        return new File(SaveLoad.getProjectFolder().getAbsolutePath() + "/" + name);
+        return new File(SaveLoad.getFolderPath() + "/" + name);
     }
     
     public Card getCurrentCard(){

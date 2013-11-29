@@ -137,6 +137,10 @@ public class SaveLoad extends Object{
         SaveLoad.saveNotes(project);
     }
     
+    public static String getFolderPath(){
+        return getProjectFolder().getAbsolutePath();
+    }
+    
     /** A convenience class for giving notes to a project.
      * 
      * @param project the project whose notes are to be loaded.
