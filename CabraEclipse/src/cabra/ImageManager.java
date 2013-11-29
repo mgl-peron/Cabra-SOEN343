@@ -174,4 +174,15 @@ public final class ImageManager {
          return newFile;
     }
     
+    
+    /** Retrieves an imageicon that is stored in this project's folder
+     * 
+     * @param imageName the name of the icon (foo.png)
+     * @return the created imageicon, or null if the image cannot be found
+     */
+    public static ImageIcon getImageIcon(String imageName, Project project){
+        return GUI.createImageIconFromFullPath(SaveLoad.getPathTo(imageName, project));   
+    }
+    
+    
 }

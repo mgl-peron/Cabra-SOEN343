@@ -175,7 +175,7 @@ public class Project implements Comparable<Project>{
      */
     
     public ImageIcon getImageIcon(String imageName){
-        return GUI.createImageIconFromFullPath(SaveLoad.getPathTo(imageName, this));   
+        return ImageManager.getImageIcon(imageName, this);   
     }
     
     public void save(){
