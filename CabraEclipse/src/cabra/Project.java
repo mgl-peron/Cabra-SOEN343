@@ -104,7 +104,7 @@ public class Project implements Comparable<Project>{
                 return;
             }*/
             
-            File copiedFile = copyPictureFile(card.getPictureFile());              
+            File copiedFile = ImageManager.copyPictureFile(card.getPictureFile(), name);              
             
             //resize the image so it's the same size as the studying picture panel; reduces file size
             /** DISABLED so we can see image in full size some time **/
@@ -166,16 +166,7 @@ public class Project implements Comparable<Project>{
         //save
         saveCards();
     }
-    
-    /** Copies the given picture file to this guy's folder.
-     * 
-     * @param pictureFile the picture file to be copied
-     * @return the new location of the file
-     */
-    
-    public File copyPictureFile(File pictureFile){
-       return ImageManager.copyPictureFile(pictureFile, name);
-    }
+  
     
     /** Retrieves an imageicon that is stored in this project's folder
      * 
