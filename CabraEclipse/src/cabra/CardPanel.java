@@ -299,7 +299,7 @@ public class CardPanel extends JPanel{
             card.setAnswer(Card.bringBackNewlines(answer.getText()));
             
             //save it
-            project.saveCards();
+            SaveLoad.saveCards(project);
             
             //make question/answer uneditable
             question.setEditable(false);

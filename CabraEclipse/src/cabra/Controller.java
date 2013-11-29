@@ -438,7 +438,7 @@ public final class Controller extends Object{
             //create the card file
             //File cardFile = new File(projectFolder.getPath() + "/cards.txt");
             
-        project.saveCards(); //forces the creation of cards.txt
+        SaveLoad.saveCards(project); //forces the creation of cards.txt
         
         //make this project active
         setActiveProject(project, shouldSave);

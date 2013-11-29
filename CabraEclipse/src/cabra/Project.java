@@ -119,7 +119,7 @@ public class Project implements Comparable<Project>{
             card.trimPictureFile();
         }        
         
-        saveCards();
+        SaveLoad.saveCards(this);
         
         //since there's a new card, notify the session
         if(session != null){
@@ -164,22 +164,18 @@ public class Project implements Comparable<Project>{
             fileToRemove.delete();
         }
         //save
-        saveCards();
+        SaveLoad.saveCards(this);
     }
     
     public void save(){
         //called when this project needs to be saved
 
         //the methods are split up for convenience
-        saveCards();
+        SaveLoad.saveCards(this);
 
         saveNotes();
     }
-    
-    public void saveCards(){
-    	SaveLoad.saveCards(this);
-    }
-    
+
     public void saveNotes(){
         //save notes
         final Project proj = this;
@@ -202,7 +198,7 @@ public class Project implements Comparable<Project>{
     
     public void shuffle(){
         deck.shuffle();
-        saveCards();
+        SaveLoad.saveCards(this);
     }
     
     public String getName(){
@@ -236,7 +232,7 @@ public class Project implements Comparable<Project>{
         for(Card card : deck.getCards()){
             card.setStatus(Status.DEFAULT_STATUS);
         }
-        saveCards();
+        SaveLoad.saveCards(this);
     }
     
     /** The entire session was skipped.
