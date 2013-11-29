@@ -185,9 +185,7 @@ public class Project implements Comparable<Project>{
      */
     
     public String getPathTo(String thing){
-        String folderPath = SaveLoad.getProjectFolder().getAbsolutePath() + "/" + this.getName(); //to the folder of the image
-        String absolutePath = folderPath + "/" + thing; //the absolute path to the image        
-        return absolutePath;
+        return SaveLoad.getPathTo(thing, this);
     }
     
     public void save(){

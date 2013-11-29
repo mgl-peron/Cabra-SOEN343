@@ -125,6 +125,19 @@ public class SaveLoad extends Object{
                 }
     }
     
+    /** Finds the absolute location of a card/note based on its name
+     * 
+     * @param thing the name of the card/note/picture's file, like foo.png
+     * @return the full path to foo.png
+     */
+    
+    public static String getPathTo(String thing, Project project){
+        String folderPath = SaveLoad.getProjectFolder().getAbsolutePath() + "/" + project.getName(); //to the folder of the image
+        String absolutePath = folderPath + "/" + thing; //the absolute path to the image        
+        return absolutePath;
+    }
+    
+    
     /**Gets all the notes from the given project
      * 
      * @param project the project whose notes you want to find

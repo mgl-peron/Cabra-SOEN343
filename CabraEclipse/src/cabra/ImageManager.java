@@ -173,4 +173,5 @@ public final class ImageManager {
          ImageManager.copyImage(pictureFile,newFile);
          return newFile;
     }
+    
 }
