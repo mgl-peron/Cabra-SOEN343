@@ -177,15 +177,7 @@ public class Project implements Comparable<Project>{
     }
 
     public void saveNotes(){
-        //save notes
-        final Project proj = this;
-        //save in background
-        new Thread(new Runnable(){
-            public void run(){
-                SaveLoad.saveNotes(proj);
-            }
-        }).start();
-        SaveLoad.saveNotes(this);
+    		SaveLoad.saveNotes(this);
     }
     
     /** Tells this project to load notes from the saved files. Call this when switching to a new active project

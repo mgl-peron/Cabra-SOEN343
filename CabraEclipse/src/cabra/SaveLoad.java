@@ -79,7 +79,7 @@ public class SaveLoad extends Object{
      * @param project the projects whose notes need to be serialized
      */
     
-    public static void saveNotes(Project project){
+    private static void savingNotes(Project project){
         //some notes might have been renamed from last time; delete those
         File projectFolder = new File(SaveLoad.getProjectFolder() + "/" + project.getName()); //folder where notes are
         //just wipe out all the old notes
@@ -112,6 +112,19 @@ public class SaveLoad extends Object{
             System.out.println("Error saving notes! Details: " + io);
             io.printStackTrace();
         }
+    }
+    
+    public static void saveNotes(Project project)
+    {
+        //save notes
+        final Project proj = project;
+        //save in background
+        new Thread(new Runnable(){
+            public void run(){
+                SaveLoad.savingNotes(proj);
+            }
+        }).start();
+        SaveLoad.savingNotes(project);
     }
     
     
